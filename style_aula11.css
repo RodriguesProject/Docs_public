@@ -1,0 +1,41 @@
+a {
+    font-style: normal;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(65, 26, 184);
+    margin: 10px; /* distância externa */
+    padding: 10px; /* distância interna */
+    border: 1px solid black;  /* borda que separa interno do externo */
+}
+
+p {
+    border: 1px solid black;
+}
+
+.block {
+display: block;
+}
+
+.in-line {
+display: inline-block; /* se usar apenas inline não surtirá efeito da margem, mas se usar inline-block é possível modificar */
+margin-top: 25px;
+}
+
+
+.display-block{
+    display: block;
+    height: 200px;/*altura*/
+    width: 150px;/*largura*/
+    background-color: steelblue;
+    border: 1px solid black;
+}
+.display-inline{
+    display: inline;
+    background-color: green;
+    border: 1px solid black;
+}
+.display-inline-block{
+    display: inline-block;
+    background-color: pink;
+    border: 1px solid black;
+}
