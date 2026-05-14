@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da página na aba</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Título da página exibido no corpo do site
+        </h1>
+        <nav><!-- Navegação do site -->
+            <ul><!-- Lista não ordenada de links de navegação para o nosso menu-->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projeto">Projeto</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <!-- Adicione mais itens de navegação conforme necessário -->
+            </ul>
+        </nav>
+    </header>
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <img src="C:\Users\thiag\OneDrive\Imagens\FOTO PERFIL MENOR.png" alt="imagem foto do perfil"
+            title="Foto do perfil de Thiago">
+        <!-- src= caminho da imagem, alt= texto alternativo para acessibilidade ou para quando não for localizada a imagem-->
+        <article>
+            <p>Olá, meu nome é Thiago, sou advogado e estou estudando HTML e CSS.</p>
+        </article>
+        <aside>
+            <h3>Habilidades</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </aside>
+        <h3>Subtítulo da Seção</h3>
+    </section>
+    <section id="projeto">
+        <h2>Portifólio</h2>
+        <article>
+            <p>
+                Este foi o meu primeiro projeto em HTML e CSS.
+            </p>
+        </article>
+    </section>
+    <section id="Habilidades">
+        
+        <h2>Habilidades e tecnologias</h2>
+        <table><!-- Tabela para organizar as habilidades e tecnologias -->
+            <thead><!-- Cabeçalho da tabela -->
+                <tr><!-- Linha do cabeçalho -->
+                    <th>Habilidade</th><!-- Coluna para o nome da habilidade -->
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!-- Linha para a habilidade HTML -->
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de páginas web semanticas e responsivas.</td>
+                </tr>
+                <tr><!-- Linha para a habilidade CSS -->
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiência com flexbox, grid e animações CSS.</td>
+                </tr>
+                <tr><!-- Linha para a habilidade JavaScript -->
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <section id="contato">
+            <h3>Contato</h3>
+            <p>Tem um projeto em mente? Entre em contato!</p>
+            <form action=""><!-- Formulário de contato -->
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" required><br>
+
+                <label for="assunto">Assunto:</label><br>
+                <select id="assunto" name="assunto" required>
+                    <option value="orçamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="outros assuntos">Outros assuntos</option>
+                </select><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" cols="20" rows="5" required></textarea><br>
+                <input type="checkbox" name="inscrição" id="inscrição">
+                <label for="inscrição">Desejo me inscrever para receber novidades</label><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <address>
+                Email: <a href="mailto:thiago@thiago.com">thiago@thiago.com</a> <br>
+                Telefone: <a href="tel:+55(47)98888-1015">+55(47)98888-1015</a> <br>
+                Endereço: Rua Carlos Koepp, 47, Saguaçú - Joinville/SC <br>
+
+        </section>
+    <p>© 2024 Thiago. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
