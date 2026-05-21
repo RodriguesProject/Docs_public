@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 19: Introdução à Manipulação de Elementos de Páginas Web e Switch-Case</title>
+    <script src="FeBe_script_aula19.js"></script>
+</head>
+<body>
+    <h1>Trocando de cor das divs</h1>
+    <button id="botaoTrocaCor" onclick="trocaCor()">Trocar de Cor</button>
+    <button id="botaoResetarCor" onclick="resetarCor()">Resetar Cores</button>
+    <div id="div-1" class="divTrocaCor">Div 1</div>
+    <div id="div-2" class="divTrocaCor">Div 2</div>
+    <div id="div-3" class="divTrocaCor">Div 3</div>
+
+    <h2>Calculadora Básica</h2>
+    <p>Operadores Válidos: +, -, *, /</p>
+    <input type="text" id="num1" placeholder="Número 1">
+    <select id="operador">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="text" id="num2" placeholder="Número 2">
+    <button onclick="calcularOperacao()">Calcular</button>
+    <p id="resultado"></p>
+</body>
+</html>
