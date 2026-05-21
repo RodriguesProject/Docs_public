@@ -1,0 +1,39 @@
+.container{
+display: grid;
+grid-template-columns: 1fr 3fr; /* tamanho da da primeira coluna 1 fração e segunda coluna 3 fração*/
+grid-template-rows: auto 1fr; /* tamanho da primeira linha auto e segunda linha 1fração*/
+}
+.header{
+    grid-column: 1 / -1; /*significa que irá ocupar toda a linha*/
+background-color: rgb(74, 89, 89);
+padding: 20px;
+}
+.sidebar{
+background-color: rgb(137, 196, 196);
+padding: 20px;
+}
+.content{
+background-color: aquamarine;
+padding: 20px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+p{
+    border: solid black 1px;
+}
+
+/*
+Para melhorar a responsividade (usar 3 técnicas - grade fluida; :  
+use grades fluidas: usar tamanhos realtivos como:  fr, percentual, mvw
+posicionamento de elementos: float, grid e flexbox
+imagens fluidas: 
+usar max-width (determina a largura máxima relativa de um elemento - a imagem pode ser reduzida se necessário, mas nunca excede o tamanho máximo definido); 
+srcset (imagens adaptáveis, permite que o navegador decida qual tamanho da imagem);
+picture; 
+media query (adapta CSS a diferentes telas - celular x tablet x laptop - evita que carregue imagens grandes sem necessidade)
+
+tipografia responsiva (ajusta a fonte):
+media query - font-size (define o tamanho da fonte flexível)
+*/

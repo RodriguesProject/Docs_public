@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    background-color: rgb(100, 100, 100);
+color: aliceblue;
+padding: 20px;
+text-align: center;
+}
+main{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+gap: 20px;
+padding: 20px;
+}
+.content{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    color: azure;
+    font-size: 2vw;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
