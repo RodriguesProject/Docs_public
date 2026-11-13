@@ -1,32 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<!--para atribuir estilo ao documento VINCULANDO um arquivo CSS use o esquema abaixo-->
-    <link rel="stylesheet" href="FeBe_style_aula7.css">
+    <title>Introdução ao CSS</title>
+    <!-- O nome do arquivo deve corresponder exatamente ao arquivo existente no repositório. -->
+    <link rel="stylesheet" href="FeBe_style_aula07.css">
 </head>
 <body>
     <header>
-        <h1>CSS</h1>
-        <p id="parágrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sapiente explicabo distinctio sequi enim veniam ex odio dignissimos vero facere fuga unde numquam, repellendus deleniti impedit neque quaerat magni ab.</p>
-        <p class="textual_estilo1">Introdução ao CSS com uso de recursos</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quaerat aut omnis eius beatae eum explicabo id totam fugiat, eligendi expedita. Eaque ab recusandae voluptatum quibusdam laudantium itaque fuga vero.
-            <a href="#">Link para saber mais informações sobre "lorem"</a>
-        </p>
-        <div>
-            <p> Lorem ipsum dolor sit amet.
-                <a href="#">Link para saber mais informações sobre "lorem"</a>
-        </div>
-        <a href="#">Link de Narnia</a>
-        <a href="#">Link de Hogwarts</a>
-        <a href="#">Link de Asgard</a>
-        <a href="#">Link de Gotham</a>
-
+        <h1>CSS — seletores e estilos</h1>
+        <p id="paragrafo1">Exemplo de parágrafo identificado por ID.</p>
+        <p class="textual-estilo1">Exemplo de parágrafo identificado por classe.</p>
+        <p>Texto de demonstração com <a href="#selecao">um link interno</a>.</p>
+        <div><p>Parágrafo dentro de uma div.</p></div>
+        <nav aria-label="Links ilustrativos">
+            <a href="#selecao">Exemplo 1</a>
+            <a href="#selecao">Exemplo 2</a>
+            <a href="#selecao">Exemplo 3</a>
+        </nav>
     </header>
-    <section>
-        <a id="link_entendimento" href="#">Link de entendimento de seleção com mouse</a>
-    </section>
+    <main>
+        <section id="selecao">
+            <a id="link_entendimento" href="#selecao">Exemplo de seleção e interação com mouse</a>
+        </section>
+    </main>
 </body>
 </html>
