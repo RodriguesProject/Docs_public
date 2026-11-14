@@ -1,0 +1,11 @@
+-- CONFERINDO QUANTIDADE E UMA AMOSTRA
+
+SELECT COUNT(*) AS registros_importados
+FROM vendas_kaggle;
+
+-- CONFERINDO PRIMEIRA LINHA E COMPARANDO
+
+SELECT *
+FROM vendas_kaggle
+ORDER BY transacao_id
+LIMIT 10;

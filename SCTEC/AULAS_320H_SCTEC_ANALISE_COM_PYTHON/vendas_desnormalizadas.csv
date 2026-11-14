@@ -1,0 +1,6 @@
+﻿pedido_id,cliente_id,cliente_nome,cliente_estado,produto_id,produto_nome,categoria,quantidade,preco_unitario
+1001,1,Ana Souza,RJ,P001,Mouse sem fio,Periféricos,2,89.9
+1001,1,Ana Souza,RJ,P005,Hub USB-C,Acessórios,1,159.9
+1002,2,Bruno Lima,SP,P002,Teclado mecânico,Periféricos,1,249.9
+1003,1,Ana Souza,RJ,P003,Webcam HD,Vídeo,1,179.9
+1004,3,Carla Dias,RJ,P001,Mouse sem fio,Periféricos,1,89.9

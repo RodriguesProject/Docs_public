@@ -1,0 +1,92 @@
+[
+  {
+    "pedido_id": 1001,
+    "cliente": "Ana Souza",
+    "data_pedido": "2026-09-01",
+    "data_entrega": "2026-09-05",
+    "valor": 149.9,
+    "canal": "site",
+    "status": "entregue"
+  },
+  {
+    "pedido_id": 1002,
+    "cliente": "Bruno Lima",
+    "data_pedido": "2026-09-02",
+    "data_entrega": "2026-09-07",
+    "valor": 89.5,
+    "canal": "app",
+    "status": "entregue"
+  },
+  {
+    "pedido_id": 1003,
+    "cliente": "Carla Dias",
+    "data_pedido": "2026-09-03",
+    "data_entrega": "2026-09-10",
+    "valor": 230.0,
+    "canal": "site",
+    "status": "entregue"
+  },
+  {
+    "pedido_id": 1004,
+    "cliente": "Diego Rocha",
+    "data_pedido": "2026-09-03",
+    "data_entrega": "",
+    "valor": 55.75,
+    "canal": "marketplace",
+    "status": "cancelado"
+  },
+  {
+    "pedido_id": 1005,
+    "cliente": "Eva Martins",
+    "data_pedido": "2026-09-04",
+    "data_entrega": "2026-09-06",
+    "valor": 315.2,
+    "canal": "app",
+    "status": "entregue"
+  },
+  {
+    "pedido_id": 1006,
+    "cliente": "Felipe Nunes",
+    "data_pedido": "2026-09-05",
+    "data_entrega": "2026-09-12",
+    "valor": 120.0,
+    "canal": "site",
+    "status": "pendente"
+  },
+  {
+    "pedido_id": 1007,
+    "cliente": "Giovana Reis",
+    "data_pedido": "2026-09-07",
+    "data_entrega": "2026-09-11",
+    "valor": 77.4,
+    "canal": "app",
+    "status": "entregue"
+  },
+  {
+    "pedido_id": 1008,
+    "cliente": "Hugo Alves",
+    "data_pedido": "2026-09-08",
+    "data_entrega": "",
+    "valor": 410.0,
+    "canal": "site",
+    "status": "pendente"
+  },
+  {
+    "pedido_id": 1009,
+    "cliente": "Isabela Costa",
+    "data_pedido": "2026-09-09",
+    "data_entrega": "2026-09-13",
+    "valor": 58.9,
+    "canal": "marketplace",
+    "status": "entregue"
+  },
+  {
+    "pedido_id": 1010,
+    "cliente": "João Pereira",
+    "data_pedido": "2026-09-10",
+    "data_entrega": "2026-09-16",
+    "valor": 199.9,
+    "canal": "site",
+    "status": "entregue"
+  }
+]

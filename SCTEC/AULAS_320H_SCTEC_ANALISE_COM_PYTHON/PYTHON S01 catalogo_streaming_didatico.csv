@@ -1,0 +1,326 @@
+﻿show_id,type,title,director,country,date_added,release_year,rating,duration,listed_in
+s0001,TV Show,Conteúdo 001,Diretor 29,Japan,25/09/2020,2014,TV-14,1 Seasons,International TV Shows
+s0002,Movie,Conteúdo 002,Diretor 18,India,13/11/2018,2019,PG,148 min,Dramas
+s0003,TV Show,Conteúdo 003,Diretor 20,US,07/01/2018,2006,PG-13,5 Seasons,TV Comedies
+s0004,TV Show,Conteúdo 004,Diretor 52,United Kingdom,09/02/2018,2099,TV-14,6 Seasons,TV Comedies
+s0005,Movie,Conteúdo 005,,France,25/06/2020,2011,TV-Y7,107 min,Comedies
+s0006,TV Show,Conteúdo 006,Diretor 26,South Korea,09/12/2019,2018,TV-MA,6 Seasons,TV Dramas
+s0007,TV Show,Conteúdo 007,Diretor 44,Spain,16/08/2020,2003,PG-13,1 Seasons,TV Dramas
+s0008,TV Show,Conteúdo 008,,,13/01/2020,2002,TV-MA,6 Seasons,TV Comedies
+s0009,Movie,Conteúdo 009,Diretor 34,South Korea,25/04/2018,2013,TV-Y7,135 min,Thrillers
+s0010,Movie,Conteúdo 010,Diretor 48,USA,26/12/2020,2006,TV-G,96 min,Thrillers
+s0011,Movie,Conteúdo 011,,Mexico,05/07/2019,2015,TV-MA,80 min,Action & Adventure
+s0012,TV Show,Conteúdo 012,Diretor 74,USA,10/09/2018,2010,TV-PG,5 Seasons,Kids' TV
+s0013,Movie,Conteúdo 013,Diretor 30,Mexico,23/03/2018,2011,R,89 min,Romantic Movies
+s0014,TV Show,Conteúdo 014,Diretor 10,France,10/04/2019,2008,TV-PG,1 Seasons,Docuseries
+s0015,Movie,Conteúdo 015,,BR,19/04/2019,1996,R,88 min,Thrillers
+s0016,Movie,Conteúdo 016,Diretor 66,South Korea,04/09/2019,2003,TV-14,101 min,Comedies
+s0017,Movie,Conteúdo 017,Diretor 72,BR,22/07/2019,2007,TV-14,138 min,Romantic Movies
+s0018,Movie,Conteúdo 018,Diretor 26,,01/01/2020,1890,R,151 min,Children & Family
+s0019,TV Show,Conteúdo 019,Diretor 66,Brasil,14/11/2018,2005,PG,6 Seasons,Reality TV
+s0020,Movie,Conteúdo 020,Diretor 16,Japan,16/12/2019,2003,TV-G,123 min,Dramas
+s0021,TV Show,Conteúdo 021,Diretor 64,BR,01/06/2020,2011,TV-14,2 Seasons,Reality TV
+s0022,Movie,Conteúdo 022,,Canada,12/03/2019,2003,TV-14,101 min,Romantic Movies
+s0023,TV Show,Conteúdo 023,Diretor 21,Spain,03/01/2018,2018,PG,2 Seasons,Reality TV
+s0024,TV Show,Conteúdo 024,Diretor 59,United Kingdom,29/02/2020,2016,R,6 Seasons,Kids' TV
+s0025,TV Show,Conteúdo 025,Diretor 74,Spain,06/07/2021,2007,PG-13,2 Seasons,Reality TV
+s0026,Movie,Conteúdo 026,Diretor 67,,25/06/2020,2016,TV-MA,112 min,Comedies
+s0027,Movie,Conteúdo 027,,Japan,20/08/2018,1999,PG,121 min,Thrillers
+s0028,Movie,Conteúdo 028,Diretor 58,US,31/05/2020,2006,PG-13,116 min,Comedies
+s0029,Movie,Conteúdo 029,,United Kingdom,08/08/2019,2020,TV-Y7,155 min,Comedies
+s0030,TV Show,Conteúdo 030,,BR,24/09/2020,2020,TV-G,1 Seasons,Docuseries
+s0031,TV Show,Conteúdo 031,,South Korea,29/11/2018,1996,R,6 Seasons,International TV Shows
+s0032,TV Show,Conteúdo 032,Diretor 39,USA,23/12/2018,2007,R,1 Seasons,TV Comedies
+s0033,Movie,Conteúdo 033,Diretor 09,United Kingdom,24/02/2021,1996,PG-13,140 min,Children & Family
+s0034,Movie,Conteúdo 034,,United Kingdom,27/04/2021,1996,TV-14,133 min,Action & Adventure
+s0035,Movie,Conteúdo 035,Diretor 18,India,12/02/2019,2021,PG-13,107 min,Documentaries
+s0036,Movie,Conteúdo 036,,India,03/01/2018,1999,TV-G,107 min,Documentaries
+s0037,Movie,Conteúdo 037,Diretor 01,Spain,08/08/2018,2018,PG,95 min,Romantic Movies
+s0038,Movie,Conteúdo 038,Diretor 25,Spain,,2008,R,120 min,Thrillers
+s0039,Movie,Conteúdo 039,,India,23/09/2019,2016,PG-13,146 min,Dramas
+s0040,Movie,Conteúdo 040,,United Kingdom,12/03/2019,2001,R,153 min,Dramas
+s0041,Movie,Conteúdo 041,,Japan,,2007,PG,132 min,Romantic Movies
+s0042,TV Show,Conteúdo 042,Diretor 36,Brazil,23/03/2019,2015,PG-13,1 Seasons,TV Dramas
+s0043,TV Show,Conteúdo 043,Diretor 15,Brazil,15/09/2019,2008,R,1 Seasons,Reality TV
+s0044,Movie,Conteúdo 044,,Brazil,05/03/2018,2011,TV-G,71 min,Thrillers
+s0045,TV Show,Conteúdo 045,,South Korea,02/05/2018,2019,TV-G,1 Seasons,Crime TV Shows
+s0046,TV Show,Conteúdo 046,,India,12/02/2018,2017,PG,5 Seasons,TV Comedies
+s0047,Movie,Conteúdo 047,Diretor 18,Spain,04/10/2019,2011,PG-13,90 min,Documentaries
+s0048,Movie,Conteúdo 048,,South Korea,17/07/2020,2010,TV-Y7,147 min,Action & Adventure
+s0049,TV Show,Conteúdo 049,Diretor 34,United States,26/02/2021,2002,TV-Y7,1 Seasons,Reality TV
+s0050,Movie,Conteúdo 050,Diretor 22,Japan,09/11/2020,2019,PG-13,93 min,Children & Family
+s0051,Movie,Conteúdo 051,Diretor 72,Spain,,2001,TV-G,124 min,Documentaries
+s0052,Movie,Conteúdo 052,Diretor 55,United States,22/08/2021,2019,TV-MA,143 min,Comedies
+s0053,TV Show,Conteúdo 053,Diretor 09,United States,06/03/2019,1999,TV-14,4 Seasons,Kids' TV
+s0054,Movie,Conteúdo 054,Diretor 48,United States,20/10/2018,2003,TV-PG,98 min,Documentaries
+s0055,TV Show,Conteúdo 055,,Brazil,16/04/2018,2017,,5 Seasons,Kids' TV
+s0056,TV Show,Conteúdo 056,,Brazil,02/06/2019,2004,TV-14,1 Seasons,Reality TV
+s0057,Movie,Conteúdo 057,Diretor 23,Japan,05/09/2020,2012,TV-Y7,137 min,Romantic Movies
+s0058,Movie,Conteúdo 058,Diretor 11,India,05/03/2019,2017,PG,124 min,Horror Movies
+s0059,Movie,Conteúdo 059,,India,20/06/2018,2001,TV-14,130 min,Dramas
+s0060,Movie,Conteúdo 060,Diretor 13,Mexico,23/03/2018,2013,R,81 min,Action & Adventure
+s0061,Movie,Conteúdo 061,,United Kingdom,24/12/2018,2021,PG,70 min,Comedies
+s0062,Movie,Conteúdo 062,Diretor 29,Japan,02/09/2021,2009,TV-PG,81 min,Romantic Movies
+s0063,Movie,Conteúdo 063,Diretor 31,Spain,26/04/2021,2010,TV-MA,118 min,Horror Movies
+s0064,TV Show,Conteúdo 064,Diretor 54,India,19/04/2020,1999,PG,1 Seasons,International TV Shows
+s0065,Movie,Conteúdo 065,Diretor 26,United States,13/03/2020,2007,TV-14,130 min,Documentaries
+s0066,Movie,Conteúdo 066,,Canada,02/02/2021,2021,PG-13,74 min,Action & Adventure
+s0067,Movie,Conteúdo 067,Diretor 18,Mexico,30/07/2018,2011,R,146 min,Documentaries
+s0068,Movie,Conteúdo 068,Diretor 46,Canada,16/04/2020,2001,TV-MA,117 min,Documentaries
+s0069,Movie,Conteúdo 069,Diretor 51,Brazil,11/10/2020,2005,,139 min,Children & Family
+s0070,Movie,Conteúdo 070,Diretor 57,France,28/12/2018,2010,TV-14,83 min,Dramas
+s0071,Movie,Conteúdo 071,,South Korea,01/06/2021,2006,PG,116 min,Children & Family
+s0072,Movie,Conteúdo 072,Diretor 32,Brazil,10/12/2020,1995,,107 min,Thrillers
+s0073,TV Show,Conteúdo 073,Diretor 49,United Kingdom,07/05/2018,2020,TV-14,3 Seasons,TV Comedies
+s0074,Movie,Conteúdo 074,,South Korea,10/07/2020,1999,TV-G,102 min,Comedies
+s0075,Movie,Conteúdo 075,,Brazil,25/12/2018,2020,TV-PG,86 min,Comedies
+s0076,Movie,Conteúdo 076,Diretor 19,India,05/03/2021,2019,TV-G,89 min,Documentaries
+s0077,Movie,Conteúdo 077,Diretor 48,France,27/09/2019,2004,PG,149 min,Documentaries
+s0078,Movie,Conteúdo 078,Diretor 07,United States,27/05/2019,2012,PG-13,137 min,Romantic Movies
+s0079,Movie,Conteúdo 079,Diretor 71,India,14/09/2020,2012,PG,121 min,Thrillers
+s0080,TV Show,Conteúdo 080,Diretor 52,India,22/05/2018,2006,R,6 Seasons,Crime TV Shows
+s0081,Movie,Conteúdo 081,,United States,13/12/2020,2018,TV-G,70 min,Horror Movies
+s0082,Movie,Conteúdo 082,,Japan,05/08/2019,2000,PG-13,137 min,Comedies
+s0083,TV Show,Conteúdo 083,Diretor 60,Spain,14/08/2021,2000,TV-14,5 Seasons,TV Comedies
+s0084,Movie,Conteúdo 084,Diretor 47,Brazil,13/04/2021,2020,TV-MA,99 min,Children & Family
+s0085,Movie,Conteúdo 085,Diretor 29,Canada,01/04/2020,2004,PG-13,107 min,Thrillers
+s0086,Movie,Conteúdo 086,Diretor 38,France,23/03/2020,1995,TV-14,112 min,Dramas
+s0087,TV Show,Conteúdo 087,Diretor 27,United States,23/09/2018,1996,TV-MA,3 Seasons,International TV Shows
+s0088,Movie,Conteúdo 088,,France,26/06/2018,2015,TV-14,98 min,Thrillers
+s0089,Movie,Conteúdo 089,Diretor 26,Brazil,05/03/2018,2013,R,136 min,Dramas
+s0090,Movie,Conteúdo 090,Diretor 08,Canada,25/09/2018,2001,PG-13,123 min,Comedies
+s0091,Movie,Conteúdo 091,,South Korea,10/04/2019,2018,TV-G,95 min,Action & Adventure
+s0092,TV Show,Conteúdo 092,Diretor 05,South Korea,08/09/2018,2021,TV-PG,3 Seasons,TV Comedies
+s0093,Movie,Conteúdo 093,,Brazil,17/12/2018,2007,PG-13,70 min,Horror Movies
+s0094,Movie,Conteúdo 094,Diretor 71,Japan,02/05/2018,2008,,131 min,Horror Movies
+s0095,Movie,Conteúdo 095,,Brazil,07/04/2021,2008,TV-14,80 min,Thrillers
+s0096,Movie,Conteúdo 096,Diretor 23,United States,02/02/2019,1998,TV-Y7,149 min,Comedies
+s0097,Movie,Conteúdo 097,Diretor 46,Brazil,02/05/2021,2015,TV-Y7,159 min,Children & Family
+s0098,Movie,Conteúdo 098,,Spain,10/07/2021,2004,TV-G,107 min,Romantic Movies
+s0099,Movie,Conteúdo 099,Diretor 23,United States,24/06/2021,1998,TV-14,108 min,Dramas
+s0100,TV Show,Conteúdo 100,Diretor 63,Japan,,1997,TV-Y7,3 Seasons,TV Dramas
+s0101,TV Show,Conteúdo 101,,South Korea,05/12/2019,2009,R,1 Seasons,International TV Shows
+s0102,TV Show,Conteúdo 102,Diretor 28,Brazil,05/08/2018,2007,TV-14,4 Seasons,Kids' TV
+s0103,Movie,Conteúdo 103,Diretor 63,Brazil,19/09/2020,2009,PG-13,103 min,Thrillers
+s0104,TV Show,Conteúdo 104,Diretor 03,Brazil,01/07/2019,2017,TV-G,5 Seasons,TV Comedies
+s0105,TV Show,Conteúdo 105,Diretor 31,United Kingdom,07/10/2018,1996,TV-Y7,1 Seasons,TV Comedies
+s0106,TV Show,Conteúdo 106,,Spain,24/04/2021,2001,PG,3 Seasons,TV Comedies
+s0107,Movie,Conteúdo 107,,United States,29/08/2018,2002,PG-13,147 min,Horror Movies
+s0108,Movie,Conteúdo 108,Diretor 14,France,13/07/2019,2012,TV-G,92 min,Comedies
+s0109,Movie,Conteúdo 109,Diretor 43,Brazil,16/08/2020,2018,TV-MA,149 min,Comedies
+s0110,TV Show,Conteúdo 110,Diretor 54,,04/04/2019,2015,TV-MA,2 Seasons,International TV Shows
+s0111,Movie,Conteúdo 111,,Japan,27/11/2018,2003,PG-13,73 min,Comedies
+s0112,Movie,Conteúdo 112,Diretor 66,Spain,11/04/2018,2020,TV-Y7,99 min,Documentaries
+s0113,Movie,Conteúdo 113,Diretor 37,Mexico,16/01/2019,2008,TV-G,105 min,Horror Movies
+s0114,Movie,Conteúdo 114,,,19/01/2021,2009,TV-Y7,109 min,Thrillers
+s0115,Movie,Conteúdo 115,Diretor 07,Brazil,19/06/2018,2004,TV-PG,113 min,Dramas
+s0116,TV Show,Conteúdo 116,,United States,10/07/2021,2017,TV-MA,3 Seasons,Crime TV Shows
+s0117,TV Show,Conteúdo 117,,Brazil,19/07/2021,2009,PG,2 Seasons,Crime TV Shows
+s0118,TV Show,Conteúdo 118,,India,10/02/2018,2018,TV-G,1 Seasons,Kids' TV
+s0119,Movie,Conteúdo 119,Diretor 24,Mexico,03/01/2018,2019,TV-Y7,76 min,Action & Adventure
+s0120,Movie,Conteúdo 120,Diretor 30,South Korea,03/08/2021,2007,TV-PG,130 min,Horror Movies
+s0121,Movie,Conteúdo 121,Diretor 74,France,07/02/2021,2000,PG,144 min,Thrillers
+s0122,Movie,Conteúdo 122,,Brazil,16/05/2019,2015,TV-MA,112 min,Thrillers
+s0123,Movie,Conteúdo 123,Diretor 42,Mexico,27/05/2021,2017,R,74 min,Dramas
+s0124,Movie,Conteúdo 124,Diretor 49,United States,08/04/2019,2020,TV-MA,126 min,Dramas
+s0125,Movie,Conteúdo 125,Diretor 62,United States,10/10/2020,1996,TV-PG,89 min,Horror Movies
+s0126,Movie,Conteúdo 126,Diretor 22,Mexico,01/06/2021,2000,TV-14,128 min,Dramas
+s0127,Movie,Conteúdo 127,Diretor 21,Canada,04/01/2018,2015,TV-14,95 min,Documentaries
+s0128,Movie,Conteúdo 128,Diretor 60,South Korea,25/03/2018,2018,PG-13,81 min,Comedies
+s0129,Movie,Conteúdo 129,Diretor 37,Brazil,,2006,TV-14,105 min,Romantic Movies
+s0130,Movie,Conteúdo 130,Diretor 31,South Korea,29/05/2021,1999,TV-MA,136 min,Thrillers
+s0131,Movie,Conteúdo 131,Diretor 49,Brazil,15/09/2019,2014,TV-Y7,124 min,Comedies
+s0132,TV Show,Conteúdo 132,Diretor 39,Japan,01/10/2019,1996,R,3 Seasons,International TV Shows
+s0133,Movie,Conteúdo 133,Diretor 73,Mexico,28/08/2018,2010,PG-13,146 min,Action & Adventure
+s0134,Movie,Conteúdo 134,Diretor 22,United States,24/02/2018,2010,PG-13,151 min,Children & Family
+s0135,Movie,Conteúdo 135,Diretor 34,Brazil,08/10/2020,2015,TV-Y7,118 min,Action & Adventure
+s0136,Movie,Conteúdo 136,Diretor 27,United States,09/06/2020,2015,PG,156 min,Documentaries
+s0137,TV Show,Conteúdo 137,Diretor 30,Canada,10/05/2019,2014,R,3 Seasons,Crime TV Shows
+s0138,Movie,Conteúdo 138,Diretor 44,,29/01/2020,2019,TV-MA,116 min,Comedies
+s0139,TV Show,Conteúdo 139,Diretor 15,Spain,09/05/2021,2014,TV-14,4 Seasons,Crime TV Shows
+s0140,Movie,Conteúdo 140,Diretor 35,South Korea,08/04/2019,2005,PG-13,110 min,Comedies
+s0141,Movie,Conteúdo 141,,United Kingdom,19/06/2018,2001,TV-PG,99 min,Action & Adventure
+s0142,Movie,Conteúdo 142,Diretor 49,Brazil,27/06/2018,2013,TV-14,97 min,Children & Family
+s0143,TV Show,Conteúdo 143,,Japan,12/04/2021,1995,R,2 Seasons,TV Comedies
+s0144,Movie,Conteúdo 144,Diretor 56,United States,16/11/2020,1999,TV-PG,92 min,Action & Adventure
+s0145,Movie,Conteúdo 145,,United Kingdom,20/06/2020,2019,PG,149 min,Horror Movies
+s0146,Movie,Conteúdo 146,Diretor 11,,30/10/2020,2002,PG,95 min,Dramas
+s0147,Movie,Conteúdo 147,,,19/05/2021,2013,TV-PG,152 min,Comedies
+s0148,Movie,Conteúdo 148,Diretor 57,Japan,02/01/2020,2020,TV-14,156 min,Action & Adventure
+s0149,Movie,Conteúdo 149,,Brazil,03/04/2020,2010,TV-PG,98 min,Comedies
+s0150,Movie,Conteúdo 150,Diretor 24,India,28/03/2018,2011,PG,117 min,Action & Adventure
+s0151,TV Show,Conteúdo 151,,,18/08/2019,2005,PG-13,5 Seasons,Reality TV
+s0152,TV Show,Conteúdo 152,Diretor 72,India,25/06/2019,2009,R,4 Seasons,International TV Shows
+s0153,Movie,Conteúdo 153,Diretor 63,Brazil,23/08/2019,2004,PG,147 min,Thrillers
+s0154,Movie,Conteúdo 154,Diretor 53,Brazil,11/03/2019,2003,PG,114 min,Horror Movies
+s0155,Movie,Conteúdo 155,Diretor 60,United States,03/05/2020,2006,TV-14,92 min,Dramas
+s0156,Movie,Conteúdo 156,Diretor 24,United States,17/05/2021,2005,PG,146 min,Romantic Movies
+s0157,Movie,Conteúdo 157,Diretor 74,India,13/08/2021,2020,TV-MA,139 min,Dramas
+s0158,Movie,Conteúdo 158,Diretor 47,South Korea,26/10/2020,2001,TV-PG,111 min,Children & Family
+s0159,TV Show,Conteúdo 159,Diretor 47,,21/11/2018,2013,PG,2 Seasons,International TV Shows
+s0160,TV Show,Conteúdo 160,Diretor 27,India,15/12/2018,2003,TV-G,3 Seasons,TV Comedies
+s0161,Movie,Conteúdo 161,Diretor 22,,23/10/2018,2002,TV-MA,148 min,Romantic Movies
+s0162,TV Show,Conteúdo 162,,United States,15/08/2018,2010,TV-14,1 Seasons,TV Dramas
+s0163,Movie,Conteúdo 163,Diretor 60,United Kingdom,06/09/2019,2004,TV-MA,91 min,Documentaries
+s0164,Movie,Conteúdo 164,,United States,02/08/2020,1998,TV-PG,140 min,Children & Family
+s0165,Movie,Conteúdo 165,Diretor 22,Brazil,11/06/2019,1998,TV-PG,87 min,Romantic Movies
+s0166,Movie,Conteúdo 166,Diretor 30,India,27/07/2018,2020,PG,126 min,Dramas
+s0167,TV Show,Conteúdo 167,Diretor 47,India,13/06/2021,2018,TV-MA,1 Seasons,Docuseries
+s0168,TV Show,Conteúdo 168,Diretor 19,United States,06/07/2018,2020,PG-13,2 Seasons,Docuseries
+s0169,Movie,Conteúdo 169,Diretor 34,United Kingdom,09/04/2021,2007,TV-14,80 min,Thrillers
+s0170,TV Show,Conteúdo 170,,United Kingdom,28/01/2021,2014,TV-Y7,1 Seasons,Docuseries
+s0171,Movie,Conteúdo 171,Diretor 41,Mexico,15/11/2019,2006,PG-13,96 min,Documentaries
+s0172,Movie,Conteúdo 172,Diretor 49,South Korea,11/12/2020,2013,TV-PG,72 min,Documentaries
+s0173,Movie,Conteúdo 173,,South Korea,12/02/2018,2021,TV-MA,116 min,Romantic Movies
+s0174,TV Show,Conteúdo 174,Diretor 24,United States,09/09/2020,2013,R,2 Seasons,TV Comedies
+s0175,Movie,Conteúdo 175,Diretor 16,Spain,15/09/2019,2003,PG-13,74 min,Romantic Movies
+s0176,Movie,Conteúdo 176,Diretor 24,United Kingdom,26/06/2020,2004,,141 min,Action & Adventure
+s0177,Movie,Conteúdo 177,Diretor 70,India,28/01/2021,2013,TV-Y7,107 min,Comedies
+s0178,TV Show,Conteúdo 178,Diretor 53,South Korea,11/03/2019,2005,TV-MA,5 Seasons,Kids' TV
+s0179,TV Show,Conteúdo 179,Diretor 20,United States,26/10/2019,1999,TV-G,1 Seasons,Kids' TV
+s0180,TV Show,Conteúdo 180,,India,01/04/2021,2010,PG-13,2 Seasons,TV Comedies
+s0181,TV Show,Conteúdo 181,,Mexico,20/02/2019,1999,TV-G,4 Seasons,Kids' TV
+s0182,TV Show,Conteúdo 182,,Japan,13/03/2018,2008,PG,1 Seasons,Docuseries
+s0183,Movie,Conteúdo 183,,Japan,22/02/2021,2006,PG-13,140 min,Thrillers
+s0184,Movie,Conteúdo 184,Diretor 26,India,30/05/2020,2004,PG-13,85 min,Dramas
+s0185,TV Show,Conteúdo 185,Diretor 20,India,18/07/2018,1995,R,5 Seasons,Crime TV Shows
+s0186,Movie,Conteúdo 186,Diretor 04,Spain,29/12/2019,2009,TV-14,78 min,Action & Adventure
+s0187,Movie,Conteúdo 187,Diretor 44,United States,17/06/2019,2006,R,93 min,Action & Adventure
+s0188,Movie,Conteúdo 188,Diretor 40,France,12/10/2020,2003,R,138 min,Romantic Movies
+s0189,TV Show,Conteúdo 189,Diretor 31,India,20/09/2019,2014,TV-14,2 Seasons,TV Dramas
+s0190,Movie,Conteúdo 190,Diretor 72,Brazil,09/10/2018,2011,TV-PG,80 min,Action & Adventure
+s0191,TV Show,Conteúdo 191,,,27/04/2018,2015,PG,1 Seasons,Reality TV
+s0192,Movie,Conteúdo 192,Diretor 61,,01/03/2018,1999,TV-14,133 min,Dramas
+s0193,Movie,Conteúdo 193,Diretor 11,Brazil,26/02/2021,2021,R,86 min,Romantic Movies
+s0194,TV Show,Conteúdo 194,Diretor 30,United States,24/05/2021,2007,R,6 Seasons,International TV Shows
+s0195,Movie,Conteúdo 195,,United States,14/07/2021,2021,,149 min,Romantic Movies
+s0196,Movie,Conteúdo 196,Diretor 71,,26/10/2018,2011,PG-13,96 min,Romantic Movies
+s0197,Movie,Conteúdo 197,Diretor 56,United States,18/09/2020,2001,TV-MA,120 min,Action & Adventure
+s0198,TV Show,Conteúdo 198,Diretor 35,Mexico,23/01/2021,2005,TV-Y7,1 Seasons,International TV Shows
+s0199,Movie,Conteúdo 199,Diretor 28,Brazil,08/03/2018,2009,PG-13,114 min,Dramas
+s0200,Movie,Conteúdo 200,Diretor 20,France,18/12/2018,2011,TV-Y7,138 min,Children & Family
+s0201,TV Show,Conteúdo 201,Diretor 12,France,20/01/2021,1997,R,3 Seasons,TV Dramas
+s0202,TV Show,Conteúdo 202,Diretor 13,United States,01/01/2019,2015,R,2 Seasons,Reality TV
+s0203,Movie,Conteúdo 203,Diretor 63,Brazil,01/02/2020,2007,PG,76 min,Comedies
+s0204,Movie,Conteúdo 204,,United Kingdom,02/01/2018,2004,TV-Y7,124 min,Action & Adventure
+s0205,Movie,Conteúdo 205,,Brazil,10/11/2020,2019,TV-Y7,128 min,Children & Family
+s0206,Movie,Conteúdo 206,Diretor 62,United States,16/04/2021,2017,TV-PG,113 min,Action & Adventure
+s0207,Movie,Conteúdo 207,,Canada,16/06/2021,2017,TV-Y7,100 min,Thrillers
+s0208,Movie,Conteúdo 208,,Canada,03/10/2019,2000,TV-PG,123 min,Romantic Movies
+s0209,Movie,Conteúdo 209,,Spain,06/07/2020,2003,TV-Y7,151 min,Action & Adventure
+s0210,Movie,Conteúdo 210,Diretor 16,United States,,1997,PG,117 min,Dramas
+s0211,TV Show,Conteúdo 211,Diretor 10,South Korea,16/04/2018,1999,PG-13,2 Seasons,Docuseries
+s0212,Movie,Conteúdo 212,,Mexico,10/04/2019,2003,R,102 min,Romantic Movies
+s0213,Movie,Conteúdo 213,,India,28/04/2019,2009,TV-G,154 min,Horror Movies
+s0214,TV Show,Conteúdo 214,Diretor 16,South Korea,20/07/2019,2011,PG-13,1 Seasons,Crime TV Shows
+s0215,TV Show,Conteúdo 215,,Brazil,02/08/2020,2020,TV-G,1 Seasons,Reality TV
+s0216,TV Show,Conteúdo 216,Diretor 31,United States,05/06/2018,1996,TV-PG,1 Seasons,Kids' TV
+s0217,Movie,Conteúdo 217,Diretor 08,India,24/02/2021,2000,PG,144 min,Comedies
+s0218,Movie,Conteúdo 218,Diretor 33,United States,12/12/2019,2013,TV-14,74 min,Children & Family
+s0219,TV Show,Conteúdo 219,Diretor 35,United States,26/06/2019,2000,PG-13,6 Seasons,Kids' TV
+s0220,Movie,Conteúdo 220,Diretor 69,France,18/02/2020,1997,PG-13,85 min,Action & Adventure
+s0221,Movie,Conteúdo 221,Diretor 40,Canada,14/08/2021,2016,TV-PG,114 min,Thrillers
+s0222,Movie,Conteúdo 222,Diretor 60,United Kingdom,03/08/2021,2002,TV-MA,106 min,Dramas
+s0223,Movie,Conteúdo 223,,France,29/02/2020,2016,TV-G,129 min,Thrillers
+s0224,TV Show,Conteúdo 224,,Canada,20/10/2018,2003,TV-14,2 Seasons,Reality TV
+s0225,Movie,Conteúdo 225,Diretor 43,Brazil,15/03/2021,2016,TV-Y7,102 min,Horror Movies
+s0226,TV Show,Conteúdo 226,Diretor 60,India,06/07/2019,2013,PG-13,4 Seasons,International TV Shows
+s0227,Movie,Conteúdo 227,Diretor 55,India,05/06/2021,2005,TV-G,105 min,Romantic Movies
+s0228,Movie,Conteúdo 228,Diretor 72,,21/03/2019,2015,PG-13,121 min,Romantic Movies
+s0229,Movie,Conteúdo 229,Diretor 26,Mexico,16/09/2019,2005,TV-MA,120 min,Documentaries
+s0230,Movie,Conteúdo 230,Diretor 06,India,09/03/2019,2004,TV-Y7,104 min,Comedies
+s0231,Movie,Conteúdo 231,,India,08/05/2018,2009,TV-PG,115 min,Thrillers
+s0232,Movie,Conteúdo 232,,Brazil,31/07/2021,2014,TV-MA,105 min,Horror Movies
+s0233,TV Show,Conteúdo 233,Diretor 40,United States,30/01/2020,2016,PG-13,2 Seasons,Reality TV
+s0234,Movie,Conteúdo 234,Diretor 14,Japan,21/01/2021,2009,TV-G,124 min,Comedies
+s0235,TV Show,Conteúdo 235,,Brazil,22/06/2020,1997,TV-G,4 Seasons,TV Comedies
+s0236,TV Show,Conteúdo 236,Diretor 30,United States,17/02/2021,2020,R,6 Seasons,International TV Shows
+s0237,Movie,Conteúdo 237,,United States,14/08/2021,2010,TV-Y7,70 min,Horror Movies
+s0238,TV Show,Conteúdo 238,Diretor 07,India,07/07/2020,2020,TV-G,1 Seasons,Kids' TV
+s0239,Movie,Conteúdo 239,Diretor 18,United Kingdom,30/09/2020,2004,TV-G,115 min,Documentaries
+s0240,Movie,Conteúdo 240,,India,21/09/2019,2000,PG,121 min,Horror Movies
+s0241,TV Show,Conteúdo 241,Diretor 25,Brazil,17/06/2021,2016,PG-13,6 Seasons,Kids' TV
+s0242,TV Show,Conteúdo 242,Diretor 42,United States,22/02/2021,2005,PG,5 Seasons,Kids' TV
+s0243,Movie,Conteúdo 243,Diretor 58,,10/08/2019,1999,PG-13,89 min,Horror Movies
+s0244,Movie,Conteúdo 244,Diretor 72,South Korea,21/11/2018,2009,TV-G,142 min,Action & Adventure
+s0245,Movie,Conteúdo 245,Diretor 14,South Korea,23/02/2021,2018,PG,157 min,Comedies
+s0246,TV Show,Conteúdo 246,,South Korea,22/02/2020,2018,PG,3 Seasons,TV Comedies
+s0247,Movie,Conteúdo 247,Diretor 19,Spain,30/12/2020,2005,R,121 min,Children & Family
+s0248,Movie,Conteúdo 248,Diretor 68,Brazil,18/08/2021,2012,TV-PG,108 min,Comedies
+s0249,Movie,Conteúdo 249,Diretor 10,United States,15/05/2019,2020,PG-13,80 min,Documentaries
+s0250,Movie,Conteúdo 250,Diretor 06,United Kingdom,08/12/2020,2018,TV-PG,95 min,Romantic Movies
+s0251,Movie,Conteúdo 251,Diretor 05,,15/02/2019,2014,TV-14,72 min,Thrillers
+s0252,TV Show,Conteúdo 252,Diretor 33,France,04/12/2019,2020,TV-Y7,5 Seasons,Crime TV Shows
+s0253,Movie,Conteúdo 253,Diretor 09,India,09/08/2018,2010,TV-G,104 min,Children & Family
+s0254,Movie,Conteúdo 254,,Spain,15/04/2020,2016,TV-MA,122 min,Romantic Movies
+s0255,Movie,Conteúdo 255,,France,21/07/2021,2007,TV-Y7,117 min,Thrillers
+s0256,TV Show,Conteúdo 256,,India,08/07/2018,2007,TV-MA,3 Seasons,Crime TV Shows
+s0257,TV Show,Conteúdo 257,Diretor 08,Japan,08/09/2018,2004,TV-Y7,2 Seasons,Kids' TV
+s0258,Movie,Conteúdo 258,Diretor 60,United Kingdom,31/10/2018,2005,TV-MA,92 min,Horror Movies
+s0259,Movie,Conteúdo 259,Diretor 49,France,26/02/2020,1997,PG,150 min,Children & Family
+s0260,Movie,Conteúdo 260,Diretor 32,United States,01/05/2019,2012,TV-Y7,103 min,Romantic Movies
+s0261,Movie,Conteúdo 261,Diretor 40,,04/10/2018,1995,TV-G,113 min,Thrillers
+s0262,TV Show,Conteúdo 262,Diretor 03,United Kingdom,10/06/2020,2020,PG,4 Seasons,TV Comedies
+s0263,Movie,Conteúdo 263,,Brazil,06/12/2019,2003,TV-G,152 min,Romantic Movies
+s0264,Movie,Conteúdo 264,Diretor 68,India,17/06/2021,2003,TV-Y7,80 min,Dramas
+s0265,TV Show,Conteúdo 265,Diretor 70,Japan,22/03/2018,2002,TV-Y7,1 Seasons,Docuseries
+s0266,Movie,Conteúdo 266,Diretor 65,,24/12/2019,2014,TV-G,121 min,Documentaries
+s0267,Movie,Conteúdo 267,Diretor 74,United States,21/06/2019,2014,TV-MA,75 min,Documentaries
+s0268,Movie,Conteúdo 268,Diretor 59,United States,31/07/2021,1999,TV-MA,87 min,Romantic Movies
+s0269,Movie,Conteúdo 269,Diretor 15,United States,22/01/2019,2008,TV-Y7,78 min,Comedies
+s0270,Movie,Conteúdo 270,Diretor 41,Brazil,16/03/2021,2013,TV-G,145 min,Documentaries
+s0271,Movie,Conteúdo 271,Diretor 27,Japan,10/08/2021,1998,TV-MA,155 min,Documentaries
+s0272,Movie,Conteúdo 272,Diretor 23,India,21/06/2018,2011,TV-Y7,119 min,Action & Adventure
+s0273,Movie,Conteúdo 273,Diretor 16,United States,04/01/2020,2005,PG-13,158 min,Children & Family
+s0274,Movie,Conteúdo 274,Diretor 34,United Kingdom,09/08/2020,2006,R,111 min,Horror Movies
+s0275,TV Show,Conteúdo 275,Diretor 15,Brazil,,2018,TV-Y7,3 Seasons,Docuseries
+s0276,Movie,Conteúdo 276,,United States,02/05/2018,1998,TV-Y7,121 min,Action & Adventure
+s0277,Movie,Conteúdo 277,Diretor 34,Mexico,05/09/2020,2016,TV-14,145 min,Action & Adventure
+s0278,Movie,Conteúdo 278,,,28/04/2018,2011,TV-MA,73 min,Horror Movies
+s0279,TV Show,Conteúdo 279,Diretor 61,Canada,05/10/2018,2018,TV-MA,2 Seasons,International TV Shows
+s0280,TV Show,Conteúdo 280,Diretor 65,,28/11/2019,2005,PG-13,6 Seasons,Docuseries
+s0281,Movie,Conteúdo 281,,India,16/11/2018,1996,TV-MA,102 min,Comedies
+s0282,Movie,Conteúdo 282,,Spain,,1999,PG-13,75 min,Dramas
+s0283,Movie,Conteúdo 283,Diretor 20,Japan,07/02/2020,1999,TV-MA,118 min,Thrillers
+s0284,Movie,Conteúdo 284,,Mexico,25/04/2020,2012,PG-13,116 min,Documentaries
+s0285,Movie,Conteúdo 285,Diretor 46,Canada,11/03/2021,2016,TV-G,126 min,Documentaries
+s0286,Movie,Conteúdo 286,,,22/06/2018,2020,PG-13,101 min,Comedies
+s0287,Movie,Conteúdo 287,Diretor 46,France,02/11/2018,2007,PG,156 min,Horror Movies
+s0288,Movie,Conteúdo 288,Diretor 10,Brazil,26/05/2019,2017,TV-PG,119 min,Children & Family
+s0289,Movie,Conteúdo 289,Diretor 14,Mexico,04/09/2018,2006,TV-PG,129 min,Comedies
+s0290,Movie,Conteúdo 290,Diretor 60,India,27/06/2020,1999,TV-14,90 min,Action & Adventure
+s0291,TV Show,Conteúdo 291,,United Kingdom,01/09/2020,2015,TV-MA,5 Seasons,Reality TV
+s0292,Movie,Conteúdo 292,,South Korea,27/10/2020,2020,TV-Y7,87 min,Action & Adventure
+s0293,TV Show,Conteúdo 293,Diretor 03,Canada,03/11/2019,2010,PG-13,4 Seasons,Crime TV Shows
+s0294,Movie,Conteúdo 294,Diretor 08,Canada,13/08/2019,2020,PG-13,114 min,Comedies
+s0295,TV Show,Conteúdo 295,Diretor 73,United States,08/10/2019,2008,PG,1 Seasons,TV Dramas
+s0296,TV Show,Conteúdo 296,,Mexico,11/03/2020,2014,TV-14,5 Seasons,Kids' TV
+s0297,TV Show,Conteúdo 297,Diretor 04,Mexico,05/04/2020,2012,TV-MA,1 Seasons,Kids' TV
+s0298,TV Show,Conteúdo 298,Diretor 67,United States,30/10/2019,2007,TV-Y7,5 Seasons,Docuseries
+s0299,TV Show,Conteúdo 299,Diretor 61,Brazil,17/12/2020,1996,R,5 Seasons,International TV Shows
+s0300,Movie,Conteúdo 300,Diretor 32,Brazil,04/05/2021,2016,R,87 min,Comedies
+s0301,TV Show,Conteúdo 301,Diretor 47,Spain,06/11/2020,2018,TV-Y7,3 Seasons,TV Dramas
+s0302,Movie,Conteúdo 302,Diretor 50,India,16/11/2020,2012,TV-14,134 min,Horror Movies
+s0303,Movie,Conteúdo 303,Diretor 32,Canada,19/03/2020,2005,R,103 min,Romantic Movies
+s0304,Movie,Conteúdo 304,Diretor 55,India,03/03/2018,2008,TV-PG,118 min,Horror Movies
+s0305,TV Show,Conteúdo 305,,Canada,18/03/2020,2000,TV-PG,5 Seasons,Crime TV Shows
+s0306,Movie,Conteúdo 306,Diretor 09,India,26/09/2018,2005,TV-G,138 min,Action & Adventure
+s0307,Movie,Conteúdo 307,Diretor 42,Spain,22/04/2021,2001,TV-Y7,80 min,Horror Movies
+s0308,Movie,Conteúdo 308,,,14/07/2021,1997,R,95 min,Action & Adventure
+s0309,Movie,Conteúdo 309,Diretor 22,United Kingdom,18/06/2019,2000,TV-14,87 min,Thrillers
+s0310,Movie,Conteúdo 310,Diretor 57,,09/09/2020,2018,TV-G,146 min,Action & Adventure
+s0311,Movie,Conteúdo 311,Diretor 27,Japan,,1999,TV-G,143 min,Thrillers
+s0312,Movie,Conteúdo 312,Diretor 21,France,10/06/2019,1998,R,104 min,Romantic Movies
+s0313,Movie,Conteúdo 313,Diretor 41,Brazil,12/08/2020,1998,,83 min,Dramas
+s0314,Movie,Conteúdo 314,Diretor 36,United States,25/07/2019,1996,TV-PG,122 min,Children & Family
+s0315,Movie,Conteúdo 315,Diretor 61,Brazil,28/05/2018,2015,PG-13,109 min,Horror Movies
+s0316,Movie,Conteúdo 316,Diretor 18,Brazil,09/01/2019,2017,PG,86 min,Children & Family
+s0317,Movie,Conteúdo 317,Diretor 35,South Korea,09/11/2018,1999,PG,135 min,Children & Family
+s0318,TV Show,Conteúdo 318,Diretor 56,Mexico,13/05/2021,2001,PG,2 Seasons,Reality TV
+s0319,Movie,Conteúdo 319,Diretor 10,Spain,09/05/2019,2002,PG-13,133 min,Dramas
+s0320,TV Show,Conteúdo 320,,France,07/03/2021,2003,PG-13,3 Seasons,TV Dramas
+s0168,TV Show,Conteúdo 168,Diretor 19,United States,06/07/2018,2020,PG-13,2 Seasons,Docuseries
+s0231,Movie,Conteúdo 231,,India,08/05/2018,2009,TV-PG,115 min,Thrillers
+s0026,Movie,Conteúdo 026,Diretor 67,,25/06/2020,2016,TV-MA,112 min,Comedies
+s0064,TV Show,Conteúdo 064,Diretor 54,India,19/04/2020,1999,PG,1 Seasons,International TV Shows
+s0010,Movie,Conteúdo 010,Diretor 48,USA,26/12/2020,2006,TV-G,96 min,Thrillers

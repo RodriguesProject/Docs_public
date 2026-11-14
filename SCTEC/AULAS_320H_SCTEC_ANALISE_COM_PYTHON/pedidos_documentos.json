@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "PED1001",
+    "cliente": {
+      "cliente_id": 1,
+      "nome": "Ana Souza",
+      "estado": "RJ"
+    },
+    "data": "2026-10-01",
+    "status": "entregue",
+    "itens": [
+      {
+        "produto_id": "P001",
+        "nome": "Mouse sem fio",
+        "quantidade": 2,
+        "preco": 89.9
+      },
+      {
+        "produto_id": "P005",
+        "nome": "Hub USB-C",
+        "quantidade": 1,
+        "preco": 149.99
+      }
+    ]
+  },
+  {
+    "_id": "PED1004",
+    "cliente": {
+      "cliente_id": 3,
+      "nome": "Carla Dias",
+      "estado": "RJ"
+    },
+    "data": "2026-10-04",
+    "status": "entregue",
+    "itens": [
+      {
+        "produto_id": "P002",
+        "nome": "Teclado mecânico",
+        "quantidade": 1,
+        "preco": 249.9
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+﻿pedido_id,cliente,valor,status
+1001,Ana,149.9,pago
+1002,Bruno,89.5,pendente
+1003,Carla,230.0,pago
+1004,Diego,55.75,cancelado
+1005,Eva,315.2,pago
+1006,Felipe,120.0,pendente

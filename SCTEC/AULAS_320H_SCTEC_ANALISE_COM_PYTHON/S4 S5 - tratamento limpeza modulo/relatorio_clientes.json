@@ -1,0 +1,6 @@
+{
+    "total_clientes": 8,
+    "emails_com_formato_ok": 6,
+    "telefones_com_tamanho_ok": 6,
+    "cpfs_com_11_digitos": 8
+}

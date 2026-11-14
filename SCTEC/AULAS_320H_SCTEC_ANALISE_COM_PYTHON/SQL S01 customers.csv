@@ -1,0 +1,221 @@
+﻿customer_id,customer_city,customer_state
+c0001,Olinda,PE
+c0002,Blumenau,SC
+c0003,Campinas,SP
+c0004,Santos,SP
+c0005,Vitória da Conquista,BA
+c0006,Santos,SP
+c0007,Juazeiro do Norte,CE
+c0008,Santos,SP
+c0009,Caxias do Sul,RS
+c0010,Vitória da Conquista,BA
+c0011,Santos,SP
+c0012,Petrópolis,RJ
+c0013,Aparecida de Goiânia,GO
+c0014,Ribeirão Preto,SP
+c0015,Juiz de Fora,MG
+c0016,Juiz de Fora,MG
+c0017,Santos,SP
+c0018,Salvador,BA
+c0019,Salvador,BA
+c0020,Niterói,RJ
+c0021,Olinda,PE
+c0022,São Paulo,SP
+c0023,Campinas,SP
+c0024,Curitiba,PR
+c0025,Goiânia,GO
+c0026,Ribeirão Preto,SP
+c0027,Santos,SP
+c0028,Juiz de Fora,MG
+c0029,Salvador,BA
+c0030,Campinas,SP
+c0031,Petrópolis,RJ
+c0032,Florianópolis,SC
+c0033,Petrópolis,RJ
+c0034,Campinas,SP
+c0035,Santos,SP
+c0036,Belo Horizonte,MG
+c0037,Uberlândia,MG
+c0038,Olinda,PE
+c0039,Porto Alegre,RS
+c0040,Florianópolis,SC
+c0041,Aparecida de Goiânia,GO
+c0042,Juiz de Fora,MG
+c0043,Uberlândia,MG
+c0044,Sobral,CE
+c0045,Ribeirão Preto,SP
+c0046,Florianópolis,SC
+c0047,Salvador,BA
+c0048,Santos,SP
+c0049,Contagem,MG
+c0050,Ribeirão Preto,SP
+c0051,Ribeirão Preto,SP
+c0052,Juiz de Fora,MG
+c0053,Niterói,RJ
+c0054,Salvador,BA
+c0055,Juazeiro do Norte,CE
+c0056,Feira de Santana,BA
+c0057,São Paulo,SP
+c0058,Rio de Janeiro,RJ
+c0059,Ribeirão Preto,SP
+c0060,Ribeirão Preto,SP
+c0061,Goiânia,GO
+c0062,Belo Horizonte,MG
+c0063,Campinas,SP
+c0064,Recife,PE
+c0065,Petrópolis,RJ
+c0066,São Paulo,SP
+c0067,Campinas,SP
+c0068,Porto Alegre,RS
+c0069,Vitória da Conquista,BA
+c0070,Ribeirão Preto,SP
+c0071,Sobral,CE
+c0072,Caruaru,PE
+c0073,Caruaru,PE
+c0074,Campinas,SP
+c0075,Ribeirão Preto,SP
+c0076,Olinda,PE
+c0077,Nova Iguaçu,RJ
+c0078,Caxias do Sul,RS
+c0079,Vitória da Conquista,BA
+c0080,Ribeirão Preto,SP
+c0081,Feira de Santana,BA
+c0082,Sobral,CE
+c0083,Blumenau,SC
+c0084,Belo Horizonte,MG
+c0085,Caruaru,PE
+c0086,Maringá,PR
+c0087,Florianópolis,SC
+c0088,Recife,PE
+c0089,Blumenau,SC
+c0090,Niterói,RJ
+c0091,Santos,SP
+c0092,São Paulo,SP
+c0093,Uberlândia,MG
+c0094,Uberlândia,MG
+c0095,Curitiba,PR
+c0096,Rio de Janeiro,RJ
+c0097,Salvador,BA
+c0098,Fortaleza,CE
+c0099,Ribeirão Preto,SP
+c0100,Joinville,SC
+c0101,Pelotas,RS
+c0102,Maringá,PR
+c0103,Ribeirão Preto,SP
+c0104,Feira de Santana,BA
+c0105,Goiânia,GO
+c0106,Florianópolis,SC
+c0107,Juazeiro do Norte,CE
+c0108,Aparecida de Goiânia,GO
+c0109,Petrópolis,RJ
+c0110,Pelotas,RS
+c0111,Contagem,MG
+c0112,Goiânia,GO
+c0113,Campinas,SP
+c0114,Juiz de Fora,MG
+c0115,Caruaru,PE
+c0116,Niterói,RJ
+c0117,Feira de Santana,BA
+c0118,Rio de Janeiro,RJ
+c0119,Aparecida de Goiânia,GO
+c0120,Fortaleza,CE
+c0121,Niterói,RJ
+c0122,Feira de Santana,BA
+c0123,Niterói,RJ
+c0124,Porto Alegre,RS
+c0125,Porto Alegre,RS
+c0126,Recife,PE
+c0127,Santos,SP
+c0128,Santos,SP
+c0129,Joinville,SC
+c0130,Curitiba,PR
+c0131,Contagem,MG
+c0132,Santos,SP
+c0133,Nova Iguaçu,RJ
+c0134,Olinda,PE
+c0135,Ribeirão Preto,SP
+c0136,Nova Iguaçu,RJ
+c0137,Goiânia,GO
+c0138,São Paulo,SP
+c0139,Joinville,SC
+c0140,Santos,SP
+c0141,Caruaru,PE
+c0142,Joinville,SC
+c0143,Fortaleza,CE
+c0144,São Paulo,SP
+c0145,Curitiba,PR
+c0146,Vitória da Conquista,BA
+c0147,São Paulo,SP
+c0148,Santos,SP
+c0149,São Paulo,SP
+c0150,Goiânia,GO
+c0151,Joinville,SC
+c0152,Pelotas,RS
+c0153,Blumenau,SC
+c0154,Londrina,PR
+c0155,Juiz de Fora,MG
+c0156,Uberlândia,MG
+c0157,Pelotas,RS
+c0158,Ribeirão Preto,SP
+c0159,Sobral,CE
+c0160,Feira de Santana,BA
+c0161,Rio de Janeiro,RJ
+c0162,Londrina,PR
+c0163,Santos,SP
+c0164,Anápolis,GO
+c0165,Juazeiro do Norte,CE
+c0166,Juazeiro do Norte,CE
+c0167,Rio de Janeiro,RJ
+c0168,Campinas,SP
+c0169,Santos,SP
+c0170,Ribeirão Preto,SP
+c0171,Ribeirão Preto,SP
+c0172,Santos,SP
+c0173,Aparecida de Goiânia,GO
+c0174,Ribeirão Preto,SP
+c0175,São Paulo,SP
+c0176,Olinda,PE
+c0177,Curitiba,PR
+c0178,Feira de Santana,BA
+c0179,Caxias do Sul,RS
+c0180,Juazeiro do Norte,CE
+c0181,Porto Alegre,RS
+c0182,Londrina,PR
+c0183,Blumenau,SC
+c0184,Belo Horizonte,MG
+c0185,Nova Iguaçu,RJ
+c0186,Contagem,MG
+c0187,São Paulo,SP
+c0188,Salvador,BA
+c0189,Santos,SP
+c0190,Ribeirão Preto,SP
+c0191,Ribeirão Preto,SP
+c0192,Recife,PE
+c0193,Niterói,RJ
+c0194,Joinville,SC
+c0195,Caruaru,PE
+c0196,Campinas,SP
+c0197,Feira de Santana,BA
+c0198,Nova Iguaçu,RJ
+c0199,Ribeirão Preto,SP
+c0200,Florianópolis,SC
+c0201,Fortaleza,CE
+c0202,Niterói,RJ
+c0203,Maringá,PR
+c0204,Niterói,RJ
+c0205,Londrina,PR
+c0206,Pelotas,RS
+c0207,Porto Alegre,RS
+c0208,Pelotas,RS
+c0209,Ribeirão Preto,SP
+c0210,Florianópolis,SC
+c0211,Porto Alegre,RS
+c0212,Florianópolis,SC
+c0213,Ribeirão Preto,SP
+c0214,Belo Horizonte,MG
+c0215,Uberlândia,MG
+c0216,Ribeirão Preto,SP
+c0217,Santos,SP
+c0218,Juiz de Fora,MG
+c0219,Joinville,SC
+c0220,Ribeirão Preto,SP

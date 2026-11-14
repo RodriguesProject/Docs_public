@@ -1,0 +1,13 @@
+﻿cliente_id,cliente,estado,segmento,idade
+1,Ana Souza,RJ,Recorrente,32
+2,Bruno Lima,SP,Novo,28
+3,Carla Dias,MG,Recorrente,41
+4,Diego Rocha,RJ,Novo,23
+5,Eva Martins,SP,VIP,37
+6,Felipe Nunes,BA,Recorrente,35
+7,Giovana Reis,PR,Novo,29
+8,Hugo Alves,SC,VIP,45
+9,Isabela Costa,PE,Recorrente,31
+10,João Pereira,RJ,Novo,26
+11,Larissa Gomes,MG,VIP,39
+12,Marcos Silva,SP,Recorrente,42

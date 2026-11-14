@@ -1,0 +1,424 @@
+# Meeting Transcription
+
+  Meeting started: 10/10/2026, 09:09:32
+  Duration: 111 minutes
+  Participants: Allan Lange, Cora Giassi, Edson da Silva, Fernanda Nunes, Francisco Wagner Fernandes de Sousa, Hellen Ruthes, Ju Borghetti, Lola Danielli, Luiz Antonio Schlup (Big), Marcelo Soares Menna, Maria de los Angeles Moreno, midana ca, romulo trindade, Suzan Christoff, Thiago Francisco Matos, THIAGO RODRIGUES, Wilson de Souza
+
+  [View original transcript](https://app.tactiq.io/api/2/u/m/r/knoRKu1tZaI50s0MlwjR?o=txt)
+
+    
+
+  
+
+  
+    ## Highlights
+
+    > 05:55 Hellen Ruthes: exercícios de guite hoje, mas esses exercícios aqui eles estão no github.
+> 11:19 Hellen Ruthes: git clone https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises.git
+> 12:34 Marcelo Soares Menna: eu nunca utilizei o Github e ainda não entendi a dinâmica dele. não me parece muito intuitivo, pelo menos pra mim
+> 18:10 Hellen Ruthes: https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/blob/main/documentos/como_resolver_exercicios/guia_alunos_fluxograma_python_pandas.pdf
+> 24:02 Hellen Ruthes: https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/blob/main/exercicios_resolvidos/aulas_reforco/aula_10_out_2026/1_aula_10_out_2026_la%C3%A7os.ipynb
+> 30:14 Hellen Ruthes: link exercicios
+https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/blob/main/exercicios_resolvidos/aulas_reforco/aula_10_out_2026/1_aula_10_out_2026_la%C3%A7os.ipynb
+> 01:37:13 Hellen Ruthes: Exercícios - Estruturas Básicas - explicação
+https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/tree/main/documentos/estruturas_basicas
+
+exercícios - https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/tree/main/exercicios_resolvidos/estruturas_basicas
+> 01:44:33 Hellen Ruthes: Do fluxo aqui tá? Então essa esse seria aula de hoje quando a gente vem aqui no github, a gente vai ter em documentos não tem nada secreto aqui vocês podem
+> 01:48:00 Marcelo Soares Menna: a aula de github será importante
+
+  ## Transcript
+
+  00:00 Hellen Ruthes: Apoio e alguns itens específicos eu recebi ontem. O Jaime passou vários de vocês colocaram. Ah eu tenho dúvida em Git eu tenho. orientada, objeto e tal aula de hoje é uma aula bastante básica e introdutória que é laços e se der tempo alguma coisa de estrutura, tá? E aí eu vou mostrar primeiro. Aonde que tá as coisas aqui então por hora vou pedir só para vocês acompanharem e talvez deixar o telefone de lado, tá? Eu sei que a gente quer entender tem muita gente mandando mensagem para gente.
+00:35 Hellen Ruthes: dar uma focadinha aqui, se você tiver em WhatsApp que fica mandando notificação e tal dá uma dá uma focada aqui por hora então esse aqui eu que te Hub que eu tenho que trabalhar com a minha turma então alguns documentos vão ser usados aqui, tá? E aqui tem guia básico. Ai eu tenho dificuldade de conversa, eu tenho dificuldade de instalação, então tem vários dias básicos escritos aqui tá
+01:01 THIAGO RODRIGUES: Olá, estou transcrevendo esta chamada com minha extensão Tactiq AI. https://tactiq.io/r/transcribing
+01:01 Hellen Ruthes: eu não vou passar com vocês todos esses itens aqui porque não é o objetivo da turma, mas eu vou deixar para vocês. Caso vocês precisem e queiram ler aí vocês podem ir a partir daqui tá? Então esse kit é o que a gente vai usar hoje. E aí o que eu comentei com vocês é uma das dificuldades da turma eles quando eu faço exercício, eles entendem o exercício.
+01:29 Hellen Ruthes: quando eu passo o exercício para eles, eles têm dificuldade que eu começo o que que eu uso porque que eu a dificuldade que a gente começou a entender é no entender o que tem. feito e o que se espera então eu criei um item que
+02:06 Hellen Ruthes: É um fluxograma, então, ele vai ter alguns itens específicos aqui como resolver exercício, né? E a partir daqui que a gente vai trabalhar hoje então na sequência eu vou mostrar para vocês. Como que a gente vai trabalhar, qual que é a ideia de hoje. Então como que a gente vai entender o enunciado, entendeu? Que foi pedido, entendeu? Algumas coisas se vocês tiverem papel e caneta é muito bom, porque ajuda a gente a memorizar a entender a escrever.
+02:37 Hellen Ruthes: Então a gente vai ter uns dois minutinhos para vocês buscarem um papel uma caneta e aí a gente vai ver. Como que a gente vai usar esse guia para resolver os exercícios. Então esse é o primeiro ponto né? Então quando vocês pegarem os exercícios que eu vou mostrar na sequência para vocês. Aí vocês vão ver aonde que entra o guia tá? O guia tem alguns exercícios, a gente vai olhar passo a Mas o ideal é que a gente comece a escrever e a responder essas perguntas para a gente.
+03:05 Hellen Ruthes: Tá então esse é o primeiro item o segundo item daqui em exercícios resolvidos. E aí tem aulas de reforço as aulas de hoje? A gente vai ter duas aulas a primeira do dois tópicos. A primeira é laços e a segunda é a estrutura de dados tá? Então laços e fiel, se for Uai. Quando que você usa o quanto que você usa o outro e aqui quando a gente vocês vão pegar esse repositório? Tem toda toda uma estruturação aqui, eu fiz para duas horas, talvez não talvez a gente tem aqui fazer alguma coisa mais rápida ou não? Vamos ver né? A minha ideia que pelo menos laços vocês sejam feitos hoje, depende da turma.
+03:56 Hellen Ruthes: E aí tem o roteiro. Então vai pedir para vocês abrirem o fluxograma e seguirem essa linha de pensamento, tá? E aí tem a gente vai começar a entender quando que a gente usa uma coisa quando a gente detalhes específicos aqui e aí são exercícios bastante Mágicos mesmo e todos eles então tem um exercício aqui a gente vai colocar vai ter o planejamento aqui, então você vai resolver na sua máquina, esse exercício tá vai fazer a Na sua máquina e vai colocar esse planejamento. O que que você precisa mostrar? Quais são os seus dados? Quais são as regras todos? né? O exercício por exercício então um dois três para os
+04:41 Allan Lange: Bom dia!
+04:43 Hellen Ruthes: não derem tempo no final, a gente tem o gabarito. Tá mas é dessa forma que eu pretendo trabalhar com vocês hoje, beleza? Então por hora eu expliquei o que é para ser feito. Quero saber se vocês têm dúvidas, né? Depois das dúvidas, eu vou explicar para vocês. Como vocês acessam esses exercícios e como que a gente vai trabalhar com eles então dúvidas por hora. Que que temos entendemos não entendemos faz sentido.
+05:14 Hellen Ruthes: Maravilha Por hora tranquilo pessoal. Tranquilo então vamos lá então agora a gente vai eu vou mostrar para vocês. Como que vocês vão extrair os exercícios, né? E aonde que eles estão na máquina de vocês então primeiro eu mostro depois vocês já estão num nível
+05:45 Allan Lange: Desculpa, cheguei um pouco tarde!
+05:46 Hellen Ruthes: que você já tem acesso convite. Todos têm kit aí já trabalharam com vídeo maravilha, a gente não vai fazer
+05:51 Fernanda Nunes: sim
+05:52 Allan Lange: Sim
+05:55 Hellen Ruthes: exercícios de guite hoje, mas esses exercícios aqui eles estão no github.
+06:00 Hellen Ruthes: Então como que vocês vão fazer? Esse é o módulo tá então vocês vão? buscar então vocês vão passei para vocês o módulo ali posso passar de novo? Vocês vão fazer vocês vão vir aqui certo, vamos dar um code copiar. E aí vocês vão no versículo de vocês todos têm inveja. Aí vocês vão escolher uma pasta lá para vocês certo? E abre o item aqui então, que que vocês vão fazer vocês vão clonar em lugar esse item? Vocês precisam encontrar onde que tá essa pasta às vezes seja o maior desafio. Vamos ver aí.
+06:53 Hellen Ruthes: Se for muito difícil, ai tô com muita dificuldade não tem problema cria um notebook ou cria um pai então e vai seguindo porque não tem nada tão específico aqui então você pode ler de um lugar e executar em outro não tem problema eu não vou pedir para vocês me entregarem isso daqui, ele é estruturado dessa forma para ser um pouco mais fácil, tá? Outra coisa vocês têm impacto perdão Júpiter notebook instalado no vs de vocês.
+07:29 Hellen Ruthes: Não tem alguém não?
+07:31 Allan Lange: Sim, eu tenho.
+07:33 Luiz Antonio Schlup (Big): Não eu não tenho
+07:35 Hellen Ruthes: Tá para quem não tem tá que que você vai fazer? Você vem aqui no Expo
+07:37 Fernanda Nunes: não tenho
+07:43 Hellen Ruthes: nessa. tá E instala o Júpiter o primeiro que aparecer certo vai no teu versus 30 segundos. Maravilha próximo passo quando vocês forem executar as células. Então por hora a gente ainda tá aqui prestando atenção quando vocês forem executar as células só vão fechar o microfone quando a gente for executar as células, ele vai pedir interno para vocês, tá? Então ele vai dar um Pop aqui em cima, vocês vão colocar o quer tá. E aí ele executa na sequência. Então essas coisas que a gente tem que prestar atenção sabemos que são muito espaço sabemos. E aí sempre vão ser mais e mais espaço. Então esse aqui é.
+08:49 Hellen Ruthes: E é o mínimo que eu consigo para trazer uns exercícios os exercícios estruturados para vocês tranquilo. Então agora se vocês não tem mais nenhuma dúvida todo mundo Conseguiu instalar o vsco ou Júpiter me fale, tá? E aí eu vou pedir para vocês fazerem o Bitcoin de vocês. Todo mundo sabe fazer um vídeo Clone.
+09:12 Fernanda Nunes: Pode repetir só a parte de pegar o exercicio no Git
+09:14 Francisco Wagner Fernandes de Sousa: Olá, estou transcrevendo esta chamada com minha extensão Tactiq AI. https://tactiq.io/r/transcribing
+09:15 Fernanda Nunes: Por favor
+09:15 Hellen Ruthes: Não. Tá você já viram um kit?
+09:21 Luiz Antonio Schlup (Big): não
+09:24 Hellen Ruthes: Você já tiver.
+09:25 Fernanda Nunes: Sim
+09:25 Allan Lange: Sim
+09:26 Cora Giassi: só uma perguntinha esses Já aquele que a gente já tem que a gente já
+09:32 Hellen Ruthes: isso mesmo para agora e para ir para o O Rômulo sim é o mesmo que precisa clonar vocês podem só fazer um vídeo tipo para pegar porque eu mudei a estrutura das pastas, mas é exatamente nada. Beleza? Para os que não sabem fazer um kit Clone se já tiveram um kit se já tiveram essa matéria isso não é uma não é uma. só quero entender se o que vocês têm instalado ou não, porque aí se não der certo eu tenho que dar um segundo uma segunda forma para vocês fazerem.
+10:09 Hellen Ruthes: Você quer?
+10:16 Allan Lange: Eu tenho guit eu tenho Git aqui.
+10:17 Hellen Ruthes: Tá beleza, você tem o Kit? Tá vocês não aprenderam.
+10:24 Ju Borghetti: Então, eu tenho guite, mas a gente na verdade. Nossa turma, não aprendeu a fazer clonar. Não.
+10:34 Hellen Ruthes: alguém mais não aprendeu a
+10:35 midana ca: Esta aula está sendo gravada?
+10:38 Hellen Ruthes: Ou só os dois? Certo, então, já já vamos passar para um outro uma outra forma de fazer tá?
+10:44 Fernanda Nunes: Eu não lembro
+10:48 Hellen Ruthes: Então assim se vocês não aprenderam a clonar eu acho mas vocês têm o Git. O que eu acho que vai fazer mais sentido. Então porque se a gente for começar
+10:57 Fernanda Nunes: Sim
+11:01 Hellen Ruthes: a fazer uma aula de clone aqui vai ser mais difícil, então quem conseguir fazer o Bitcoin vai fazer né? Então a primeira opção a segunda. É só abrir aqui para vocês.
+11:19 Hellen Ruthes: git clone https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises.git
+11:20 Hellen Ruthes: A aula tá é para estar sendo gravada. Para quem não tem o Bitcoin. O que que vocês vão quem não? clone? Vocês vão fazer de uma outra forma tá então o que que vocês vão fazer aqui nesse link que eu passei para vocês aqui vocês vem no exercícios resolvidos certo? Exercícios aulas de reforço a primeira aula que a gente vai começar Tá aqui certo então esse aqui vai ser de onde vocês vão copiar e no kit de vocês então vocês vão abrir um Git específico lá que vocês queiram trabalhar.
+12:06 Hellen Ruthes: Vamos supor vocês vem cria um novo resolução de aulas, por exemplo. Pode ser qualquer nome. Ponto e pai notebook certo então criar.
+12:34 Marcelo Soares Menna: eu nunca utilizei o Github e ainda não entendi a dinâmica dele. não me parece muito intuitivo, pelo menos pra mim
+12:42 Hellen Ruthes: criar arquivo <nome>.ipynb
+12:45 Hellen Ruthes: Para quem não entendeu tranquilo, a gente vai usar a segunda coisa porque senão a gente vai se perder, né? Então obrigada por compartilharem para quem já tem segue essa dinâmica para quem não tem vocês vão abrir o vsco de vocês, né? Vão criar esse exercício aqui é nome.y. E aí vocês vão escrever o código então vocês vão copiar de um e colar em outro certo? Então, por exemplo o primeiro exercício é esse aqui, escreva o valor da compra então para vocês resolverem esse exercício.
+13:23 Marcelo Soares Menna: eu baixo o zip e instalo o arquivo numa pasta e vida que segue
+13:28 Hellen Ruthes: Vocês vem aqui no kit de vocês e vão começar a colocar o exercício dois exercício 3.
+13:32 Thiago Francisco Matos: professora, sua shell está coberta pelo box do meet de shering screen
+13:42 Hellen Ruthes: Assim tá coberta, mas é não tem não tem muita coisa acontecendo, mas obrigada então é isso que eu preciso que você façam tá então para quem já tem dá um kit Clone pega os exercícios e resolve a partir de lá para quem não tem não sabe dinâmica não, tô tão seguro. Querem fazer vai criar um exercício em algum lugar que vocês tenham no seu verso code tá não vai ser cobrado. E cria esse resolução aulas ponto Y pai NB certo, vamos parar dois minutinhos cinco minutinhos para fazer isso, tá? E aí na sequência, a gente vai começar com a aula tranquilo. Se alguém tiver dúvida, me fala a gente resolve.
+14:35 Thiago Francisco Matos: 5 minutos pra terminar de passar o café heheh
+14:52 Hellen Ruthes: Oi bom dia.
+14:52 Lola Danielli: Olá bom dia, inicialmente então é inicialmente. pasta no vscode, né no caso que eu não vou fazer com o Git. Tá bom? Obrigado.
+14:59 Hellen Ruthes: isso Exato só cria esse só que tem que ser com ponto y n b, se não vai ficar mais difícil para você resolver ou se você prefere ponto pai também, pode ser? Nada, imagina.
+15:55 Hellen Ruthes: Quando vocês forem terminando me dá um joinha só para saber.
+17:51 Hellen Ruthes: certo pessoal Conseguimos Todos prontos preciso esperar mais alguém.
+18:02 Wilson de Souza: Só não consegui achar esse fluxograma.
+18:02 Hellen Ruthes: Oi Tá esse fluxograma tá aqui, ó.
+18:10 Hellen Ruthes: https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/blob/main/documentos/como_resolver_exercicios/guia_alunos_fluxograma_python_pandas.pdf
+18:14 Wilson de Souza: Do documentos como resolver exercícios guia?
+18:18 Hellen Ruthes: Isso ou eu acabei de escrever para vocês. Aonde que tá o fluxograma vou pedir para vocês abrirem legal, então, tá bom maravilha, então assim por que que
+18:24 Wilson de Souza: legal
+18:29 Hellen Ruthes: vai eu acho que a maioria tá pronto pelo menos. Ninguém se manifestou, né? Então vamos lá então esse fluxograma pessoal, agora eu vou precisar de novo que vocês prestem atenção, o que que a gente vai fazer aqui? Ele é um roteiro porque porque muitos de vocês não tiveram essa programação básica, né? Então a gente tá passando vários itens, então tem pessoas de níveis diferentes, só vamos lembrar de fechar o áudio pessoal só para concentrar aqui tá são pessoas de maneiras de valores perdão informações diferentes que estão trabalhando e aprendendo programação, tá? Então uma dificuldade que foi reportada. Ah, eu entendi, mas eu não sei como é que eu uso. Eu não sei quando que eu uso uma Coisa e eu não sei quando que eu uso outra coisa ou sei lá, gente, tá um tempo longe da escola, a gente não tá tão mais habituado a resolver aqueles exercícios que a gente resolveu certo então esse enunciado vocês vão ter acesso a ele tá gente? Vamos fechar o áudio, por favor, senão fica um barulhinho, só confiram que o áudio de você está fechado. Aí fica melhor então quando a gente passar o exercício, né? Que que a gente vai fazer a gente vai ler. O resultado vai ler o que o enunciado e vai entender.
+19:48 Hellen Ruthes: precisa entregar. Você entendeu o pedido ou não todo losango aqui é uma pergunta. Ah, eu entendi então eu sigo em frente eu aprendi eu reescrevo com as minhas palavras e aí tenta resolver e depois eu peço esclarecimento. Tá mas a gente vai tentar que a gente consiga antes de pedir o esclarecimento. Aí na sequência você vai identificar os dados das colunas a chave a regra o que que ele tá te pedindo o que que você tem? Ai eu tenho o nome eu.
+20:21 Hellen Ruthes: variável, o que que eu tenho, o que que né? Que eu vou pedir para vocês pegar um caderninho e resolver a mão, ai eu tenho tal coisa não tenho tal coisa tal. E aí. você começar a ter isso porque porque a gente vai fazer assim, porque muitas vezes você vai confundir a tua diferença a tua dificuldade. Como assim e aí começa? Olá então primeiro você escreve o que você precisa e qual que é o objetivo e depois a gente vai para sentar porque vocês estão aprendendo muitas coisas juntos, então vamos tentar fazer primeiro uma coisa depois outra coisa a gente vai para cima tranquilo. E aí resolve um caso à mão, por exemplo um passo por vez, né? Então ai no seu item executou sem erro, né? Tipo resolve a mão, né? Aí escreva escreve e começa assim tá um passo por vez, né para você entender. Aonde que tá vindo o seu erro executou sem erro, tranquilo, vai e continua escrevendo que fazer executou com erro. Você resolve aquele erro porque aí quando você chega no final, ele vai estar resolvido correto.
+21:37 Hellen Ruthes: Deu tudo certo o resultado corresponde com que foi pedido porque você vai ter uma ideia. Principalmente quando você começa os exercícios são simples. Então você tem uma ideia do que deve retornar, né? Aqueles exercícios simples da notas que foi aprovado reprovado. Você sabe que tem que acontecer ali e aí você explica esse resultado para você, faz um teste variante e vê se ainda ficou alguma dúvida. Então essa é a forma que a gente pretende trabalhar hoje tá alguma dúvida nesse item pessoal. Isso faz sentido para vocês tem essa dificuldade também eu entendo, mas quando eu vou ver tudo em mola. Isso é uma Para ver aí. Aqui tem como seguir cada etapa, tá? Eu não vou ler com vocês, tá? Porque isso é mais. Ah, eu preciso fazer depois o que eu quero hoje com vocês é executar esse item aqui, né? Então pegar um exercício olhar junto isso aqui eu não vou ler porque é super aborrecido para a gente ficar lendo junto, mas eu sugeri que vocês Leiam depois tá? E aqui tem um guia específico, então Ai, queria entender melhor qual que é a ideia assim, isso não é uma metodologia que ah é sei lá, alguém testou então é o que eu acho que funcionar para vocês, né? O que eu tô tentando testar com isso, tá? Eu não eu não sei mas os alunos que estão fazendo estão conseguindo.
+23:10 Hellen Ruthes: Então tomara que dê certo vamos testar junto, beleza? Por hora Tranquilo então, tá bom então. Agora a gente vai começar a ter um pouquinho da matéria, né? Então todo mundo abriu, né que tá aberto. Aí alguém não achou alguma coisa assim? Porque eu acho que é legal vocês terem em sua mão, porque na minha tela nem sempre vai ficar tão disponível, né? Então tem uma mão e se puderem quiserem uns dois minutinhos aí pegar um caderno um papel uma caneta nada vai ser entregue aqui a ideia que vocês vocês se entreguem para aprender fazer isso porque vai resolver bastante do tipo de vocês, tá? Então esse é o primeiro ponto segundo ponto onde estão os exercícios, a gente vai começar com esses exercícios aqui tá? Então quem
+24:02 Hellen Ruthes: https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/blob/main/exercicios_resolvidos/aulas_reforco/aula_10_out_2026/1_aula_10_out_2026_la%C3%A7os.ipynb
+24:03 Hellen Ruthes: clonou os exercícios eles vão estar exercícios resolvidos aula de reforço aula do dia 10 de outubro que é hoje começamos pelo um certo está aqui para quem não vocês vão copiar a partir daqui também vão colocar da forma que vocês quiserem resolver, mas os exercícios a nossa conversa vai ser guiada a partir daqui. Tranquilo. Alguém precisa alguém tem alguma dúvida ou precisa? pegar uma água alguma coisa assim? Paramos dois minutinhos e voltamos 9:36 ou seguimos a partir de agora. Estamos aqui estamos.
+24:55 Thiago Francisco Matos: 2 minutinhos
+24:57 Hellen Ruthes: Não aí o que a nossa opção é o seguinte, eu não vou ensinar a fazer o
+24:58 Lola Danielli: Prof. Eu só não a partir disso é como eu tô aqui no vs e não fiz ali o
+25:04 THIAGO RODRIGUES: 2min
+25:05 Lola Danielli: clone agora que tu vai começar a explicar como é que eu faço para passar para o vs, como é que é.
+25:16 Hellen Ruthes: clone porque senão vai virar uma aula de guite certo, então a nossa opção você criou a sua pasta lá o seu arquivo lá não criou no vs.
+25:27 Lola Danielli: Isso mesmo.
+25:29 Hellen Ruthes: Então, aí você vai pegar o enunciado aqui e vai resolver lá sem o clone, porque senão senão vai ficar muito confusa a aula sabe? Eu gostaria de trabalhar com esse item. Então a gente vai dar os dois minutinhos, eu vou só responder a Lola. Mas podem só só pegar alguma coisa, mas aí o que você vai fazer lá, você não vai fazer o clone se você não consegue por hora.
+25:54 Hellen Ruthes: vai fazer vai copiar e colar, senão a gente vai entrar num outro tópico. E aí não consegue trabalhar com laços. Então o que eu vou pedir para você é copiar e colar, beleza.
+26:05 Lola Danielli: Tudo bem, obrigada, tá?
+26:06 Hellen Ruthes: Tá bom nada, imagina o quem tiver no mesmo a situação da Lay não consigo fazer o clone ainda não tem problema outro dia a gente pode trabalhar Clone não tem crise, mas por hora é copiar e colar. Tá e aí daqui 9:38. Voltamos para quem precisa dois minutinhos aí.
+27:19 Marcelo Soares Menna: pronto
+27:50 Thiago Francisco Matos: fechou.
+27:55 Hellen Ruthes: Maravilha, então vamos lá então aqui a gente tem uma programação. Vamos ver se conseguimos, né? Se não der tudo bem. A ideia que vocês como aprendam vocês conseguem ver direitinho a minha tela tá? Tranquilo, vocês me ouvem direitinho. Tranquilo então vamos lá então o nosso roteiro vai ser baseado naquele fluxograma que eu mostrei para vocês tá então quando vocês abrirem, esse item vai ter o link do fluxograma aqui, né? O que que você precisa, né? Que que eu peço que vocês façam em cada exercício, entenda, né? No final eu preciso mostrar o que localize. Anote o que foi recebido e a regra resolva, a mão é planeja escreva. E como que é resolver? A mão é escreveu? acha que tem que fazer não tem uma regra para resolver o passo a passo roda e observe, né? Confira e explique. Então se executou com erro se executou sem erro isso aqui gente é um tá vocês não vão precisar entregar, mas isso aqui é para vocês usarem com as dificuldades de vocês e tentarem fazer Ah demora muito mais demora porque a gente aprendendo a pensar uma coisa diferente então até É igual aprender a dirigir também demora, né? Então tem essas esses itens tá por hora tranquilo.
+29:22 Hellen Ruthes: Todo mundo achou. Quais são os exercícios e onde eles estão? Então vamos lá, então, o que que a gente vai começar a trabalhar, né? Então quando vocês foram dependente da turma mais se vocês estão trabalhando com python, né? Vocês vão ter if vocês vão ter hélice? Elite, vocês vão ter flor range e Will certo e aí a dificuldade às vezes entra em tá entendi um entendi outro entendi. para aplicar eu não sei aplicar pode falar.
+30:01 Allan Lange: Não sei onde estão. Essa é a única essa lista de exercícios que a professora tá falando. Eu sei onde que eu encontrei esse passo a passo da
+30:05 Hellen Ruthes: Tá aqui, ó.
+30:08 Allan Lange: senhora.
+30:09 Hellen Ruthes: Tá a lista de exercício está aqui, ó.
+30:13 Allan Lange: Deixa eu ver aqui, deixa eu diminuir aqui o meu negócio.
+30:14 Hellen Ruthes: link exercicios
+https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/blob/main/exercicios_resolvidos/aulas_reforco/aula_10_out_2026/1_aula_10_out_2026_la%C3%A7os.ipynb
+30:17 Hellen Ruthes: foi aqui para você copia no
+30:19 Allan Lange: obrigado
+30:20 Hellen Ruthes: Nada, mas alguém tem dificuldade.
+30:23 Allan Lange: Achei obrigado.
+30:24 Hellen Ruthes: Nada, imagina então, eu acho que uma das dificuldades é essa, né? Você leu entendeu? Mas você consegue. Quando eu falar executa isso com isso, você sabe que a presença contar com ele agora se eu passar o problema a dificuldade é quando você escolhe um quando você Faz sentido então aqui quando usar certo então vamos pegar essa tabelinha aqui do quando usar para a gente começar a trabalhar, quando que vai usar de uma forma bem bem simples, tá if quando você faz algo quando uma condição é verdadeira, né? Então qual que é uma opção você vai abrir a porta certo se a porta aberta se a porta destrancada ela abre se a certo, você vai pegar o carro se carro com combustível liga se combustível, não liga ou bateria ou alguma coisa assim certo aí vou passar o café que a pessoa falou ali. Se tiver café, se tiver pó de café e água tem café e Luz. Talvez o gás né, mas se não não tem café. Então são coisas simples, mas é essa ideia a mesma coisa vai acontecer na programação.
+31:46 Hellen Ruthes: É quando você tem duas opções, né? Então vou fazer café, você tem pó de
+31:49 Thiago Francisco Matos: vários IF pro café, mas a gente dá um jeito
+31:51 Hellen Ruthes: café, continua você não tem coloca pó de café certo?
+31:53 Thiago Francisco Matos: kkkkk
+31:59 Hellen Ruthes: É o café o café a gente dá um jeito é vários itens, né? E fiel Tomando café dá um jeito, mas é exatamente isso aí você tem pó de café certo? E aí mas se não tem que ter água tem que ter luz então aí talvez você tenha que ter um Infiel certo porque Infiel ser quando tem duas coisas, né? Então ah, eu o carro tem bateria se não carrega a bateria certo aí um café, tem que ter várias coisas tem que ter luz, né? Vamos supor você vai fazer café na cafeteira, você tem que ter luz tem que ter pó de café e a tua cafete.
+32:34 Hellen Ruthes: que estar Limpo, se não vai derramar vai fazer então você tem que ser ver todas essas condições e tem pó de café tem água não tem café do resto anterior, lavei a cafeteira. Então seria uma condição dele. Então essas são as condições então Infiel se ele Depende de quantas você tem você só uma né? Isso faça isso, senão é se você tem duas Infiel e se você tem mais e duas você tem que usar ele tá é isso é condicional aí como você lê, né? Ser caso contrário e se não ser a forma de leitura o for é para percorrer várias coisas então quer testar muitas coisas de um até 20. Eu quero testar quem fez isso e um até 800.
+33:28 Hellen Ruthes: Então você vai correr não é uma decisão você quer ver todo mundo. Quer um por um. O Range Você quer uma sequência de inteiros e aqui entra mais uma questão de inteiros, a gente vai deixar ele para o final e o você quer repetir enquanto for verdadeiro, né? Então assim enquanto eu tiver saldo na minha conta posso comprar na chumbinho certo então aí se eu não tiver mais saldo eu não posso comprar tem que esperar o saldo do mês que vem tá? Mas enquanto eu tenho dinheiro eu posso ir lá na chopp e ficar lá alucinada, se não só carrinho de compra. Beleza então vai é esse tipo de condição tranquilo por hora.
+34:11 Hellen Ruthes: Por hora foi tá aqui o que eu coloquei gente alguns itens específicos, tá um valor de igual, guarda o valor, né? Dois valores igual é para comparação então um valor de igual atribuição dois comparação isso aqui, talvez vocês tenham dúvidas de começo. Então tenha todos os itens específicos ali maior igual as condições, elas produzem o verdadeiro ou falso certo o dois pontos inicia um bloco e o print ele vai mostrar o resultado tranquilo.
+34:50 Hellen Ruthes: foi Então vamos lá primeiro exercício exercício 1, tá então o que eu vou fazer é explicar esse exercício e aí a gente vai usar o fluxograma porque é uma resposta dele é muito simples, né? Então se eu falar para vocês fazerem vocês vão fazer e a gente vai continuar sem conseguir entender quando que usa. Então a gente vai então a resposta já tá aqui não precisamos entender a resposta agora a gente tem que entender. Como que a gente faz para chegar nessa resposta certo então. O Infiel, eles são dois caminhos, então vamos lá quando usa quando você tem duas condições sempre vão ser duas con.
+35:31 Hellen Ruthes: fiel, se a nota for maior ou igual a 6, você mostra aprovado caso contrário você mostra precisa estudar certo então. Aqui antes de executar você tenta prever os valores e as mensagens então sem usar o que tá escrito ali. Vamos pensar agora voltando no nosso programa. Então qual que é o seu problema, né? O teu exercício é isso aqui eu vou colocar.
+36:04 Hellen Ruthes: Se a nota for maior ou igual a 6, mostrar “Aprovado”. Caso contrário, mostrar “Precisa estudar”.
+36:04 Hellen Ruthes: Aqui para vocês certo então se a nota for maior ou igual a 6 mostrar aprovado caso contrário mostrar precisa estudar Note que vocês estão vendo aqui O Infiel se porque a gente tá tentando que vocês aprendam isso, mas na sua vida isso vem sem essa organização. Então é isso que a gente vai fazer agora com o fluxograma. Então sendo que o seu problema é se a nota for maior ou igual a seis mostrar aprovado caso contrário mostrar precisa estudar é você vai ler o enunciado e você vai vai ver o que precisa ser entregue certo então, o que que precisa entregar primeiro você entendeu? O pedido você.
+36:56 Hellen Ruthes: fazer? Quando você lê esse enunciado que eu passei para vocês? Quem Entendeu quem não entendeu? beleza Então, e aí? Quais que vão ser o que que você tem me dados certo se a nota é maior ou igual a 6 aprovado caso contrário precisa estudar certo, o que que você tem de dados aqui basicamente. Acho que você tá multado. Tô vendo que você tá tentando falar mas não tá indo.
+37:46 Maria de los Angeles Moreno: as notas
+37:48 Hellen Ruthes: Então aqui que que a gente vai ter de dados a gente vai. Exatamente as notas exatamente então a tua única entrada vai ser a nota aí você vai fazer um passo a passo, né? O que que eu escrevi aqui ó dados nota, beleza? E aí você vai fazer um passo a passo na mão certo. Maior que 6 escreve aprovado. você não
+38:25 Allan Lange: É maior igual a 6 impressora.
+38:27 Hellen Ruthes: Maior igual a vocês muito bom, se não reprovado certo, então você faz na mão. Que que ele tem que fazer certo, aí você vai resolver na mão também. Ah, então se eu passar nota 88 é maior igual a 6, eu vou escrever aprovado, se eu passar assim 5 é maior igual a 6 não então vou passar reprovado basicamente esse item específico, você fez isso a gente vai voltar na resolução.
+38:59 Hellen Ruthes: Então quem tem o notebook ou quem então vamos abrir o vsco de lá, né? E fazer essa resolução aqui ok? Então você vai ter um valor nota, né? Então vamos passar nota igual a 10 certo. E aí você vai ter um Infiel. E se eu posso fazer primeiro, né? E aí depois vocês fazem. Se nota é maior igual a 6 aprovado, se não reprovado temos dois casos apenas por isso usamos tem um item aqui que eu gosto bastante que é fazer esse the bug aqui tá? Não sei se vocês têm feito eu acho útil para então vocês colocam o Break Point aqui né? Quando vocês passam bem no cantinho da célula, ele passa esse pontinho vermelho aqui, tá? Pode falar.
+40:03 Allan Lange: o professor é me explica, me explica para para mim ou
+40:04 Lola Danielli: Professora, qual era a extensão da pasta no vs para quem não clonou? Apaguei a pasta sem querer
+40:07 Allan Lange: O que que é esse the bug, o que que esse e que eu não sei?
+40:12 Hellen Ruthes: Você não sabe tá isso aqui é super útil é para você item a item tá então. Qual era a extensão é essa aqui, ó Y, vai.
+40:29 Fernanda Nunes: .ipynb
+40:31 Hellen Ruthes: NB é do arquivo tá não é uma pasta você tem que criar um
+40:38 Hellen Ruthes: .ipynb
+40:38 Hellen Ruthes: Vou pedir para quem puder já ir respondendo as perguntas mais simples para eu colocar o item aqui para o Alan, o que que é um the bug isso aqui, eu acho muito útil tá? Um the bug é você fazer as coisas passo a passo, né? Porque muitas vezes você quer ir lá no seu código começar a entender, onde é que você errou com a lógica, então eu vou pedir para você fazer posso fazer primeiro e depois a gente faz junto. Pode ser então quando você passa o mouse e aí para os demais. Vou pedir para prestar atenção agora nisso aqui depois vocês criam uma pasta ou fazem crônica agora vamos prestar atenção nisso aqui quando você tá no teu vs code e você passa o mouse muito próximo aqui da célula. Você consegue colocar esse pontinho aqui ó, que é o Break ponte.
+41:29 Hellen Ruthes: Quando você vem nesse Play aqui tem o play que essa flecha maior e eu passo a Executar a célula e aqui no Mais. Você pode ir depurar célula, tá quando você clica em depurar célula, ele vai te pedir o Kernel. O que é OK? Você vai colocar uma versão do Python ali, a gente não vai entender agora o que é um cano porque senão vai ficar muito complexo, a gente vai entender como que a gente faz as coisas. E aí ele deveria executar.
+42:07 Hellen Ruthes: Depuração aqui ele abre aqui em cima esses coloridinhos. Tá mas preste atenção aqui porque senão depois a gente não não abre então assim presta atenção no que a gente tá fazendo agora não só para você ela mas para todo mundo tá então quando você ele tá nesse modo você passa aqui ó, nota o mouse em cima do nota aqui em cima do nota. Você viu o valor? 10, né? Maior igual a seis ainda ele escreve para você aqui do lado nota, beleza? Aí você vem no segundo aqui ó certo. Aí ele vai dar um print aprovado, beleza? Foi? E aí ele saiu então você consegue ver exatamente o seu
+42:50 Allan Lange: ele roda Como passo a passo e faz um
+42:55 Hellen Ruthes: código executando sabe? Isso então agora a gente vai fazer a nota 5 certo, eu vou pedir agora para
+43:06 Allan Lange: Não entendi
+43:10 Hellen Ruthes: vocês irem lá, né? Vamos fazer devagar vão lá coloquem o breakpoint. Aqui tá o item de vocês. Aí vocês vem aqui, né no mais no executar, mas do ladinho certo depurar célula certo aí vai se aparecer. O Kernel vocês vão adicionar lá um Python que ele vai executar. E aí vocês vão nesse segundo item aqui então, qual que é a nota de vocês agora na variável a variável nota tem o valor cinco porque ela é variável, ela varia certo.
+43:46 Allan Lange: bacana
+43:50 Hellen Ruthes: Se a nota é maior igual a 6 não certo, ele não vai entrar no teu no teu passo isso e ele vai entrar no teu passo. Beleza, eu acho que fica mais fácil para aprender para estudar. Eu gosto muito desse jeito.
+44:05 Allan Lange: Eu achei bacana, eu gostei achei bacana interessante sim.
+44:10 Hellen Ruthes: É super útil super útil então vocês conseguiram seguir esse espaço pessoal.
+44:18 Cora Giassi: Lá na Startup os meninos chamam isso aí, vamos debugar para achar os erros.
+44:22 Hellen Ruthes: Isso exatamente. Então vamos lá pessoal agora.
+44:28 Ju Borghetti: Não apareceu ali do lado é só botar o cursor ali no lado esquerdo deveria ser isso.
+44:32 Hellen Ruthes: Isso você criou um notebook assim, você criou um arquivo desse nome e aí
+44:32 Thiago Francisco Matos: sim, estava reativando o Jupyter
+44:38 Hellen Ruthes: quando você passa o nome aqui você aqui o mouse ele aparece.
+44:45 Ju Borghetti: Obrigada.
+44:48 Hellen Ruthes: Nada, imagina.
+44:54 Luiz Antonio Schlup (Big): Ele pede para ele abre um combobox lá para escolher uma.
+44:59 Hellen Ruthes: Pode escolher pode escolher um item daqueles?
+45:02 Luiz Antonio Schlup (Big): Qual que é o
+45:03 Hellen Ruthes: Tenho você tem o quê 3.9 3.14 3.12?
+45:09 Luiz Antonio Schlup (Big): Deixa eu ver aqui só um minuto.
+45:12 Hellen Ruthes: Escolhe qualquer um Não vai ter não vai ter.
+45:15 Luiz Antonio Schlup (Big): Ah tá 3.14.8, pode ser cilindro obrigado.
+45:17 Hellen Ruthes: Pode ser pode, pode sim. Se quiser falar depois.
+45:34 Wilson de Souza: Não não tudo bem aqui tava pagando mas o meu só aparece o vermelhinho não aparece o outro.
+45:40 Hellen Ruthes: Você tem que clicar aqui depurar célula certo?
+45:45 Wilson de Souza: Deixa eu ver sua mãe aonde? Que é que tem que apertar?
+45:49 Hellen Ruthes: Ó do lado aqui tem o play do lado tem uma flechinha certo depurar célula. E
+45:52 Wilson de Souza: Não sei. A essa eu esqueci desse então. Ah, tá legal.
+45:57 Hellen Ruthes: aí aparece aqui em cima tá? Mas aí ó aqui e aí você tem que ir passo a passo então assim, entendeu?
+46:05 Wilson de Souza: É estranho comigo não apareceu essa não apareceu a flechinha.
+46:08 Luiz Antonio Schlup (Big): A Barrinha ali em cima é o meu também não apareceu as Barrinhas lá em cima.
+46:12 Wilson de Souza: a flechinha
+46:15 Hellen Ruthes: Não apareceu.
+46:15 Wilson de Souza: Não o meu não apareceu a flechinha inclusive no programa ele aparece só em cima.
+46:20 Hellen Ruthes: É mas é aqui em cima não tá aparecendo. Não.
+46:26 Fernanda Nunes: Professora o meu não tava aparecendo. Mas é porque eu tava executando sem ser
+46:26 Ju Borghetti: Não.
+46:30 Fernanda Nunes: no notebook criado aí quando terminou notebook aparece certinho.
+46:32 Hellen Ruthes: Então, eu vou pedir para Juliana rapidamente compartilhar a tela dela, a gente vai ver e vai resolver o problema de um então vocês vão notar. Como resolve o dela e resolve de vocês aí, pode ser?
+46:49 Lola Danielli: Professora o meu está aparecendo essa mensagem: Running cells with 'Python 3.14.6' requires the ipykernel package.
+Create a Python Environment with the required packages.
+Or install 'ipykernel' using the command: 'c:/Users/eloan/AppData/Local/Python/pythoncore-3.14-64/python.exe -m pip install ipykernel -U --user --force-reinstall
+46:49 Luiz Antonio Schlup (Big): pode
+46:50 Hellen Ruthes: Então tá bom. Deixa eu parar de compartilhar Juliana. E aí você compartilha? Vamos ver onde é que está o seu problema. é
+47:08 Ju Borghetti: Eu não sei como compartilhar, infelizmente, não. Aprendemos isso.
+47:14 Hellen Ruthes: Você pode compartilhar, por favor. Tem alguém que sabe compartilhar aqui? Que tá com problema o Wilson sabe?
+47:26 Luiz Antonio Schlup (Big): Tô indo.
+47:27 Wilson de Souza: Posso ir?
+47:27 Hellen Ruthes: Sei então, vai lá. Mostra aí para gente.
+47:29 Wilson de Souza: até lá
+47:46 Fernanda Nunes: Lola, te mandei uma mensagem lá no grupo
+47:48 Wilson de Souza: Eu não tô conseguindo também agora.
+47:50 Hellen Ruthes: Tá aqui embaixo tem um microfone a câmerazinha. E aí o Chery screen. Não. Tem alguém que consegue?
+48:10 Wilson de Souza: Eu não tô conseguindo não sei porque também eu sempre compartilho.
+48:17 Hellen Ruthes: Aí beleza, foi lá Maravilha Luiz, eu acho certo. Obrigada Luiz. Beleza,
+48:21 Luiz Antonio Schlup (Big): e isso
+48:23 Hellen Ruthes: então, você vai perto do Play na flechinha para baixo certo? aí
+48:32 Luiz Antonio Schlup (Big): A execução de células como parto requer o pacote?
+48:34 Hellen Ruthes: the bugs certo
+48:43 Wilson de Souza: O eleição interrompendo um pouquinho o meu não chega nem aparecer essa aí no Programa essa essa setinha.
+48:51 Hellen Ruthes: Ah então você não deve ter feito você fez um Python notebook.
+48:57 Wilson de Souza: fiz
+49:00 Hellen Ruthes: Você instalou o Júpiter notebook?
+49:02 Wilson de Souza: instalei
+49:03 Hellen Ruthes: Ah então então fecha e abrir de novo, talvez seja isto tá? Vamos tentar isso
+49:06 Wilson de Souza: Tá bom.
+49:10 Hellen Ruthes: é Luiz, por favor roda inteiro, clica na célula e roda lá no Play dá um play
+49:15 Ju Borghetti: o meu aparece a seta ao lado, não aparecem as bolinhas vermelhas
+49:17 Hellen Ruthes: lá, vamos ver se vai. Tá você tá compartilhando a sua tela inteira ou você tá? o notebook?
+49:38 Luiz Antonio Schlup (Big): A tela inteira né? Eu tenho eu tenho que compartilhar.
+49:40 Hellen Ruthes: É porque aí eu não vou conseguir te ajudar.
+49:43 Luiz Antonio Schlup (Big): Tá, espera aí.
+49:44 Thiago Francisco Matos: Que deu barulhinho de Pop aí não dá de saber o que foi.
+49:51 Hellen Ruthes: Ó para quem tá com esses problemas, depois talvez eu consiga ajudar porque
+49:54 Ju Borghetti: Type to choose a kernel source - aparece lá em cima
+49:57 Hellen Ruthes: senão a gente vai começar a desvirtuar muito disso. Então vai ficar na gravação, tá? Como fazer depois vocês podem me passar as dificuldades de vocês. Então assim o the bug ele é uma coisa útil, né? Para os que conseguirem fazer, mas a gente for agora começar a ver problema de the bug, a gente sai de novo dos problemas. Então dá para vocês procurarem depois eu posso mandar me mandem os erros eu busco e ajudo vocês mas por hora aí vamos fazer né? Manual? Tá quem consegue beleza? Se não eu mostro a opção e vocês reclamam depois para resolver. Porque aí senão a gente não consegue cumprir o conteúdo, pode ser? Peço desculpas, mas para a gente conseguir seguir a linha de raciocínio, beleza, Thiago.
+50:49 THIAGO RODRIGUES: Eu entendi o problema dele ali, eu tava com o mesmo problema é que eu criei um arquivo em ponto P Y e na verdade é o IP ymb, né? Esse é o final é isso que
+50:59 Hellen Ruthes: Isso tem que ser isso.
+51:01 THIAGO RODRIGUES: deu a diferença ali foi isso.
+51:04 Wilson de Souza: É o meu caso é igual.
+51:05 Hellen Ruthes: Maravilha resolvemos obrigada. Tchau teremos um café aí a pessoa que tava fazendo café lá, pode pagar um café Maravilha, entendemos isso ajuda faz sentido. Então beleza, vamos voltar para o nosso item. Nosso item específico aqui tá mas que bom que vocês gostaram disso. Acho que é uma para mim é um item que ajuda muito sabe gente para a vida assim então aprendam de bug que vai resolver bastante agora então se tem dois caminhos certo. Agora a gente vai fazer esse exercício voltando de novo a fazer usando o nosso fluxograma que tá aqui.
+51:52 Hellen Ruthes: Então vamos lá é pratique e fiel. Então beleza uma compra de r100 frete grátis abaixo de 100 o frete é pago né? Então o frete grátis acima de aquela coisa que a gente sempre vê os alunos dos usuários da chopp também sempre vem. Fernando Ah, perdão, deixa eu compartilhar aqui.
+52:17 Fernanda Nunes: Da sua tela.
+52:22 Hellen Ruthes: Então, estamos aqui certo. esse exercício E temos o nosso fluxograma aberto, tá então esse aqui é um exercício de Infiel então numa compra acima de 100 certo. Se for perdão frete é pago abaixo de 100. Então você quer mostrar qual que é o valor da compra e você vai ter um valor da compra e você vai mostrar se a frete grátis ou frete pago antes de você resolver, né? Vamos lá entender. Qual a comparação que você quer, né? Então assim no seu planejamento, né? O Que Vocês entenderam o que tem que ser feito.
+53:07 Hellen Ruthes: Luiz acho que você tá com a mão levantada. Você tem alguma dúvida?
+53:14 Luiz Antonio Schlup (Big): era só para dizer que se alguém tá com aquele mesmo problema é só instalar aquela extensão que ele pede lá daí vai aparecer a Barrinha, ele pede para
+53:20 Hellen Ruthes: Ah beleza aí. Se quiserem podem inscrevendo essas coisas no chat. Acho que fica melhor que aí o pessoal vai lendo para a gente conseguir manter a linha de raciocínio, pode ser? Obrigada Luiz então assim. Vocês entenderam aqui o que é para ser feito. Certo então, beleza. Qual que é o dado que você vai ter agora? Então vamos voltar lá para o nosso fluxograma entendi, o que que é para ser feito sim, qual que é o dado que você tem. Então vamos escrever lá o dado é o valor da compra.
+53:54 Suzan Christoff: valor compra
+53:57 Hellen Ruthes: Maravilha E qual que é a regra, né que você vai escrever? Você vai testar aqui se for maior? Abaixo desse né então se for maior ou igual assim é frete grátis.
+54:16 Allan Lange: se for
+54:19 Hellen Ruthes: Caso contrário exatamente então, ele é de novo um caso de Infiel concordam
+54:20 Allan Lange: Caso contrário o frete é pago?
+54:27 Hellen Ruthes: porque você tem duas coisas ou é grátis ou é pago você não vai ter outra opção certo. Então como que a gente vai fazer ele você volta lá no seu versus. Então vamos lá exercício 2 aqui. Né? Vem para baixo código, aí, você pode colocar um hashtag exercício. 2 certo então você vai ter aqui o valor da compra. Aí ele vai ficar te chutando um monte de coisa aqui, mas não é isso que você
+55:52 Hellen Ruthes: quer então. Se o valor da compra maior que 100. frete grátis E aí vocês podem fazer o the bug de vocês também, se precisar coloca os itens aqui vai divulgando. Mas se a compra for sim. frete pago para o valor é maior ou igual certo Maior igual a 100 então aqui frete grátis, se você colocar 80 que é o teu item sugerido aqui frequentado. Então esse é um exercício específico de Infiel conseguimos entender esse esse item específico pessoal. Faz sentido.
+56:20 Hellen Ruthes: Certo, podemos ir para o próximo tá mais fácil tá nebuloso ainda conseguiram entender.
+56:32 Thiago Francisco Matos: o negócio depois
+56:33 Hellen Ruthes: Por enquanto sossegado. Tranquilo então vamos lá mais um. Então tem um exercício dois que é produtos em estoque, né? Que eu vou deixar para vocês. E aí agora a gente vai começar com mais de um caso então assim por exemplo o aluno em recuperação, né? Então quando você não sei onde que você se vocês fizeram faculdade onde eu estudava na faculdade se passasse até 5 você podia fazer final acima de certo e você passava e abaixo.
+57:11 Hellen Ruthes: Reprovado direto então mais ou menos isso então, você não tem mais nenhum nem dois caminhos. Você pode ter múltiplos caminhos nesse caso você tem três certo então mais que dois você usa Elite junto, né? Então como que a gente vai fazer classificar uma nota 8 ou mais é muito bom de 6 a 8 é aprovado e abaixo de 6 precisa estudar exercícios de nota a gente tem feito bastante aqui, né? Então de novo, né? Vamos entender o que que é para ser feito antes de executar entender as mensagens e os valores, né? E depois escrever o código então aqui você já começa tendo que o que que você vai fazer o que? seu objetivo aqui é classificar e a tua classificação é mais de dois valores. Então você usa ele certo.
+58:08 Hellen Ruthes: Qual que vai ser o seu dado seu dado de novo é a nota certo? E aí o que que você vai ter de opção, né que você vai? você vai então se a nota é maior ou igual a 8, você vai escrever muito bom. Se não se for maior ou igual a 6. Você vai escrever aprovado e do contrário, né? Ela não ela vai ser menor que 6 então você não precisa fazer esse item específico, você vai escrever preciso estudar.
+58:48 Hellen Ruthes: Então quando você escreveu isso no seu papel, né? Então eu coloquei a nota certa é maior ou igual a 8 não é? Ele vai entrar no item aqui vai testar ai CEP é maior ou igual a 6 é então escreve aprovado. Vamos supor, você escreveu cinco é maior igual a 8 não 5 é maior igual. entra no item final que é precisa estudar. Isso começa a fazer sentido para vocês pessoal ou tá nebuloso ainda.
+59:25 Hellen Ruthes: Então vamos lá, agora a gente vai fazer ou exercício aqui certo, então vamos abrir lá o médico de novo. E vamos fazer esse exercício com the bug. Então vamos lá a tua entrada, né? Que você escreveu lá é nota nota igual a 5. Se nota maior igual a 8 você vai escrever. Muito bom. se
+01:00:19 Hellen Ruthes: Então esse é o teu item notem, eu esqueci de mencionar isso o Python ele tem que ele segue exatamente aqui tá? Então você começa sempre na margem esquerda e quando ele vai entrar dentro do item ele tem que dar um item deslocado, tá? Se você fizer dessa forma, ele já começa a falar que tá errado, né? Já começa a te dar sinais é também pela sintaxe, tem que ser exatamente essa tá porque a como a linguagem tem então tem sempre dois pontos aqui tem todos esses valores. O que que a gente vai fazer agora a gente vai.
+01:01:01 Hellen Ruthes: entrar no IF no élce e no Então a gente vai fazer exatamente o que a gente estava fazendo mais com o the bug aqui certo, então você vem em depurar a célula certo? Qual que é a sua nota é 5, né? Então aqui ó nota 5 5, não é maior igual a 8, então ele passou e foi testar outra condição, né? Nota é maior ou igual a 6 não ele passou e entrou na última condição porque ele não entrou em nenhuma daquelas você tinha as três condições. E aí ele imprimir aqui precisa estudar quando você faz a tua nota 10, tá? Aí você vem aqui depurar a célula de novo 10 10 é maior igual a 8 é então, ele vai entrar aqui nessa condição entrou nessa con.
+01:01:54 Hellen Ruthes: nada, porque ele já fez o que ele tinha que fazer. Certo e se você testar a nota 7, né? Que a nossa terceira condição do Elite aqui. Voltamos com a nota depurar a célula. Vem aqui em cima certo? É maior que 8 não sei até maior que 6 é então, ele vai imprimir aprovado. E aí quando você sai, ele sai do teu bloco inteiro imprime aprovado e o programa Vai fazer as coisas sequencialmente tá por hora tranquilo.
+01:02:26 Hellen Ruthes: Maravilha, então vamos lá? Seguimos pessoal. Tão conseguindo entender. A Cadência, tá muito rápido, tá muito lento. Então, agora a gente vai para o exercício.
+01:02:46 Lola Danielli: Pra mim esta muito rapido
+01:02:47 Hellen Ruthes: três Tá muito rápido, vamos vamos fazer mais devagar.
+01:02:51 Lola Danielli: não consegui fibnalizar o 2
+01:02:54 Hellen Ruthes: Quer terminar o dois pode terminar terminou. três.
+01:03:04 Lola Danielli: pode voltar na sua tla por favor tela do vc
+01:03:10 Hellen Ruthes: Tá aqui Lola, aí você consegue ir copiando do item específico. Me falem. Quando terminar aí eu já sigo para o Próximo exercício.
+01:03:44 Lola Danielli: Entendi, é só copiar e colar aquilo que tá ali porque você fez Diferente, né o exercício.
+01:03:52 Hellen Ruthes: É que assim não é sempre que ele é resolvido da mesma forma, né? Então
+01:03:54 Lola Danielli: Não foi lá no teu.
+01:04:05 Hellen Ruthes: assim mas o que ele faz é a mesma coisa concorda. Qual que é o objetivo do
+01:04:13 Lola Danielli: Não isso eu entendi. Eu só queria copiar mesmo código que você fez para eu deixar aqui no exercício para depois qualquer coisa eu revis.
+01:04:21 Hellen Ruthes: Que eu sugiro é você não se apegar ao código tá é você se apegar. explicação porque o código tá aqui. Ó, tá vendo? Você tá exatamente com o código. Aqui tá o que eu sugiro é você se apegar com a explicação porque às vezes você fica tentando copiar o código e aí você se perde na explicação então se você quer ter o código. O código tá aqui então é só você copiar e colar mas quem tem que entender a explicação e os exercícios que a gente tá fazendo no the bug, tá? Porque o código já tá aqui tá todo o código aqui tá para você dar alguma coisa enquanto eu tô escrevendo e tal vai porque a gente tá fazendo os the bugs, mas o código específico tá aqui já para todo mundo.
+01:05:14 Hellen Ruthes: tranquilo
+01:05:15 Lola Danielli: ok obrigadda
+01:05:16 Hellen Ruthes: Me falem quando vocês terminarem. E aí a gente vai fazer o próximo.
+01:05:39 Hellen Ruthes: foi lá conseguem começar o Então vamos lá. Vamos eu vou ler para vocês, né? E aí vocês vão preencher aí o item de vocês tá é classificar uma nota de novo exercício de nota use a nota 7, mostre muito bom para nota maior igual a 8 aprovado para maior igual. que 8 e precisa estudar se a nota for menor que 6 tá então antes do código preencha o que que você precisa mostrar. Quais são os seus dados? Qual é a regra né? Vou deixar uns três minutinhos aqui para vocês lerem escreverem. E aí na sequência começar a executar vocês me falam quando tiver pronto.
+01:06:38 Hellen Ruthes: Conseguem organizar Maravilha?
+01:10:21 Hellen Ruthes: E aí pessoal, como é que tá tão conseguindo tem dúvidas travaram? Deu certo Lula conseguiu? Os demais Onde estão que passa? Tranquilo aí o que eu vou pedir também, eu mesmo exercício é fazer essas variantes aqui teste com 5 com 6 com 8 com 9, né? E aí depois trocar o limite para muito bom para nove também, né? Para vocês poderem fazer isso, então vou deixar dois minutinhos para vocês testarem tem alguém que travou e gostaria de voltar a escrever alguma coisa ou fazer alguma coisa. Estamos sem ninguém travados. Então tá bom.
+01:11:16 Hellen Ruthes: Não é muito bom gente. O meu objetivo é que vocês consigam na outra lá, então, tô feliz. Tá, mas se travado também pode falar que a minha objetivo é vocês dois travarem, mas é começar a entender. Como é que faz uma coisa ou outra.
+01:12:37 Hellen Ruthes: Conseguiram executar as variantes? Posso seguir precisa mais tempo? Lola você tá representando a turma aqui agora, só você respondeu então, vamos pela Vamos lá agora então aí tem outros exercícios aqui pessoal. Vai ter muito mais exercício, se vocês quiserem fazer depois mas aí eu gostaria de mudar agora para o fórum antes disso esse esse fluxograma a questão de vocês. Eu sei que escrever meio chatinho Legal tem ajudado. Vocês conseguem entender um pouco melhor antes de escrever. Vocês conseguem separar isso? Tá melhor e a questão do the bug ajuda vocês ou dificultou.
+01:13:55 Allan Lange: Professor ajudou sim. Ajudou ajudou, muito obrigado.
+01:13:59 Hellen Ruthes: Então tá bom nada, imagina agora.
+01:14:00 Lola Danielli: Sim, essa técnica do seu passo a passo ajudou muito.
+01:14:04 Hellen Ruthes: Passo a passo ajudou agora e Rômulo alguma dúvida? Tudo Certo Maravilha Quando que a gente usa um for certo. Então como que eu usaria um fora aqui, né? Aí eu quero perguntar para todo mundo então eu tenho uma lista de vocês aqui, eu quero perguntar para todo mundo Fernanda conseguiu Luiz Antônio conseguiu Tiago conseguiu Wilson? então, isso é uma lista. Tem uma lista e você quero perguntar para cada um fulano, você conseguiu né? Então vamos pensar dado uma lista de alunos, quando que você usa Ai quero perguntar para todo mundo, né? Então que é esse exercício chatinho que eu fiz com vocês agora então vamos supor isso aqui é só dar uma lista de alunos. Então temos alunos. Vamos ter.
+01:15:05 Hellen Ruthes: Wilson agora
+01:15:39 Hellen Ruthes: Isso aqui seria um forno certo, você conseguiu Lula? Você conseguiu Wilson? conseguiu? O cara é claro, parece que eu sou um pouco estranha, né? Se eu começar a fazer isso com vocês porque tipo pergunta geral, para de chamar o nome todo mundo sim, mas na programação não é tão intuitiva assim, a gente não vai falar para o programa. Nossa você é um pouco estranho Igual essa música tá sendo estranha com a gente então.
+01:16:07 Hellen Ruthes: Quando você quer usar o four é quando você quer? Então eu quero ir em cada um e perguntarem. Eu quero ir em certo então. Ah, eu quero eu gostaria de talvez mandar um e-mail para vocês então aí depois eu faço. Um item para mandar um e-mail, então o for é mais isso aqui é só um exemplo tá e muitas vezes. A gente vai tipo não faz sentido porque se alguém fizesse isso na vida real, seria estranho, pode falar hoje.
+01:16:39 Wilson de Souza: Você tira o s põe aluno ele entende que é um item só é isso.
+01:16:43 Hellen Ruthes: Isso sempre assim sempre assim, a gente já vai chegar lá tá? Mas é
+01:16:44 Wilson de Souza: Sempre assim sempre assim.
+01:16:50 Hellen Ruthes: exatamente isso então o que às vezes a gente entra no ponto de ai isso parece esquisito. Se alguém fizesse para o computador. Tem que ser muito bem explicado e muito organizado sempre seguindo assim, então vamos voltar aqui na sintaxe do Wilson que foi usado no Exemplo, né hoje então vamos lá se a gente voltar aqui agora. Um item de cada vez, né? Então você vai ter uma lista de nome, né? Então é exatamente o que o Wilson perguntou aqui o nome nomes. Então quando você faz um fórum você vai fazer um foco uma galerinha, né? Seja uma galera de número uma galera de qualquer coisa então. Deixa eu pegar.
+01:17:37 Hellen Ruthes: Aqui tem aqui, tá? Vamos colocar aqui certo e aí aqui talvez. Seja interessante a gente fazer justamente o the bug para ver como que ele vai vai se comportar certo, então você atribui aqui uma variável nome né? Nome em lista de nomes é muito comum a tua lista ou o teu grupo de pessoas o grupo de qualquer coisa ter um s né? Porque ele é um plural e para cada um você vai escrever. Um item então você passa a lista. E aí você tem o nome então o nome aqui ó é essa pessoa aqui e você tem os nomes. Então você vai imprimir o nome aqui, né? Qual é o valor nome é Ana primeiro deles. Beleza tem mais item tem qual que é o próximo nome? Bruno certo beleza. Qual que é o próximo nome? Carla Qual que é o próximo terminou então para uma lista inteira quando você quer aqui, a gente só tá dando print no nome de Print então são exercícios bem didáticos aqui dentro você pode fazer várias coisas. Ligar para pessoa chamar consultar consultar cadastro n coisas que você pode fazer aqui dentro o que a gente tá? É só o print. Tá, mas esse esse ponto do Wilson é muito importante tá nome em nomes né? Porque você tá vendo aquele item específico. Você vai então aqui vai estar variável, você pode colocar variável nome vari.
+01:19:24 Hellen Ruthes: precisa ser exatamente o mesmo nome e aí você tem que mudar aqui para variável também, ele vai fazer a mesma coisa, mas é o item itens isso fica claro para vocês pessoal. Isso faz sentido maravilha, então isso aqui eu não vou pedir para vocês fazerem tem o código lá vocês podem fazer na sequência, né? A ideia é fazer a demonstração dele. E aí né? Nomes é a lista nome nome eu item da vez, né? Então depois de Ana vem o Bruno depois do Bruno. Vem cá, então e o nome.
+01:20:07 Hellen Ruthes: Da variável é feito pela gente então vai ficar esse item para vocês treinarem em casa, tá? Então o que a gente tá vendo agora é aí eu tenho uma opção eu uso ela eu tenho duas eu uso e fielce eu quero colocar dividir essa galera mais de duas opções e fiel e aí quando eu quero varrer todo mundo e testar todo mundo né? Que não é. No mundo não tem não tem nenhuma regra, aí você vai usar um fórum que aí você vai pegar esse item específico, agora vamos fazer mais um exercício, né de 5 minutos que é o exercício de mostrar preço então de Novo Olhar que que você precisa mostrar no final, quais são seus dados se você entendeu ou não, entendeu o enunciado? Qual que é a sua regra fazer sua previsão manual e fazer
+01:21:03 Thiago Francisco Matos: preços da shopee, profe? kkkk
+01:21:04 Hellen Ruthes: o passo a passo em português. Ah é os preços o preço tudo é chopp, né? Não esperando eu desde 10 que é hoje, né? A gente tem aí, vamos dar um sentido e se houver repetição o que muda em cada volta certo então o que que você vai fazer? Você vai ter uma lista de preços, tá? A gente não vai entrar em ver entrevista, então a gente pode voltar na aula que vem a ver listas, você vai ter uma linha de uma lista de preços, né? Mostre um preço por linha e depois que você terminar você vai falar todos os preços foram mostrados igual eu tenho no mercado. Você não mostra todos e depois você mostra um total aqui. Você não vai mostrar o você vai mostrar todos os preços foram mostrar então para quem não tá fazendo o Bitcoin, né? Pega os preços e aí faz esse exercício. Então qual que é o seu objetivo? Ler uma lista mostrar cada preço e no final todos os preços foram mostrados, entendeu? E aí coloca seus dados e faz uma previsão à mão, então voltamos 10:37, qualquer coisa escreve no chat se você travou se você tem alguma dúvida, se não na sequência a gente resolve esse exercício, pode ser?
+01:24:10 Wilson de Souza: A gente tava fazendo todos os programas só com a terminação py, né? Que usava só o Python não usava. O Júpiter é que parece o Júpiter.
+01:24:16 Hellen Ruthes: Isso não.
+01:24:17 Wilson de Souza: melhor para fazer o the bug, né? É melhor fazer o Júpiter.
+01:24:20 Hellen Ruthes: Eu acho. Eu ele eu acho que para quem tá começando. O Júpiter é mais fácil, tá? Eu
+01:24:28 Wilson de Souza: O jogo que é mais fácil, né?
+01:24:29 Hellen Ruthes: acho que é mais fácil, por isso que eu tenho usado.
+01:24:31 Wilson de Souza: Ficou muito legal, esse eu não conhecia.
+01:24:35 Hellen Ruthes: Mas o p y também dá para você fazer o bug da mesma forma eu posso mostrar
+01:24:39 Wilson de Souza: Nada a fazer igualzinho ah, tá, aí eu pensei que só no Júpiter o que fazer.
+01:24:40 Hellen Ruthes: para você? Não não eu acho que eu Júpiter ele deixa um pouquinho mais organizado para pessoa então ela vai fazendo um depois do outro assim e ela executa, só que ela célula então eu evito eu gosto disso porque Vocês conseguem fazer só
+01:24:54 Thiago Francisco Matos: o gostoso do Jupyter é o shift enter heheh
+01:24:59 Hellen Ruthes: aquele pedaço e não fica dando outros erros, né que eu gostaria que vocês.
+01:25:02 Wilson de Souza: Então eu o pai que eu vi o p y Fazia tudo de uma vez não faziam por passo,
+01:25:08 Hellen Ruthes: isso
+01:25:08 Wilson de Souza: né? O Júpiter consegue fazer por passo, né? Legal?
+01:25:10 Hellen Ruthes: por passo então eu gosto disso por ser por passo porque eu entendessem isso. E aí depois se tivesse mais forte para ir para o outro vocês podem fazer no outro também, não tem problema, mas eu acho que para começar
+01:25:22 Wilson de Souza: Não gostei do jogo.
+01:25:26 Hellen Ruthes: eu acho eu acho sabe então, É mas por isso que o que eu uso ele assim e aí
+01:25:27 Wilson de Souza: Ah legal
+01:25:32 Hellen Ruthes: como eu já faço os exercícios mostrados assim, eu já deixo onde a pessoa tem que fazer vai fazendo o próximo. Aí é só.
+01:25:41 Wilson de Souza: Legal, obrigado.
+01:25:41 Hellen Ruthes: legal, mas é a mesma a mesma coisa a
+01:25:46 Wilson de Souza: obrigado
+01:25:47 Hellen Ruthes: sei como que o professor de vocês usa, né? Mas o ideal é que vocês consigam resolver exatamente e que sofra menos porque às vezes você tira limitações de pessoa ela consegue entender e depois ela entende outra coisa, então vai um passo por vez. Sabe? Mas que bom que você gostou. Nada, imagina. É o Júpiter, ele tem tem várias várias coisinhas assim é mais para resolver esse tipo de exercício, eu acho bom você vai uma atrás do outro e vai resolvendo vai escrevendo ali o que você tá fazendo então.
+01:26:32 Francisco Wagner Fernandes de Sousa: O que eu gostei mesmo foi da tua dinâmica de aula.
+01:26:36 Hellen Ruthes: Você gostou? Que bom fico feliz, já que eu acordei cedo hoje, já já ganhei meu dia vocês não trabalha.
+01:26:48 Thiago Francisco Matos: Olá professora mais um elogio aí.
+01:26:51 Hellen Ruthes: Então tá bom. Gente vou deixar meu LinkedIn aqui se vocês precisarem alguma coisa.
+01:26:54 Allan Lange: Elogio aí professor.
+01:27:11 Lola Danielli: Issos mesmo! profe sua aula é maravilhosaaa arendendo muito contigo
+01:27:15 Hellen Ruthes: linkedin - hellen ruthes
+41 99554 2513
+01:27:18 Hellen Ruthes: Eu não respondo e-mail, não, mandei e-mail para mim. Não sei se alguém levantou a mão, eu escutei um barulhinho. Aí conseguimos pessoal. Não vamos para vamos.
+01:27:42 Thiago Francisco Matos: Também com a lista vazia e o 5 15 ali, né?
+01:27:42 Hellen Ruthes: todos Isso exatamente.
+01:27:49 Thiago Francisco Matos: o resultado previsto vazia terminei e Sai direto, né o outro.
+01:27:56 Hellen Ruthes: Tá direto exatamente foi lá? Wilson O outro exercício Tá eu vou deixar para vocês aí vocês podem resolver
+01:28:14 Marcelo Soares Menna: ok
+01:28:18 Hellen Ruthes: depois eu tenho mais um Essência se vocês quiserem deixo para vocês também, tá? Aí vocês podem envolver. Eu não vou fazer o Range. Agora eu quero fazer o antes, tá?
+01:28:28 Thiago Francisco Matos: deixa mesmo
+01:28:33 Hellen Ruthes: Então antes de eu ente a gente vai para o Lion que é o nosso 10/10 hoje enquanto tivermos dinheiro, vamos comprar porque recebemos dia 5 dia dia 10
+01:28:42 Allan Lange: Sim, deixe!
+01:28:46 Hellen Ruthes: temos aí, né? Então é esse o Aion Quando que a gente cuida com o alho pessoal, quando nunca dá condição. Ele trouxe vai ficar rodando para sempre tá mais um dia o ideal é que saia do seu lado. Então eu não eu não uso eu não gosto porque eu sou responsável pelo pagamento dos valores e é muito fácil cometer então assim uai é bom é eu sempre uso uma outra coisa. Tá eu não uso lá eu porque eu não gosto eu tenho medo de ver ela tem que me explicar depois então é isso, mas para programação. Talvez seja útil para vocês. Talvez vocês gostem e a gente tem que aprender.
+01:29:32 Hellen Ruthes: Muitas vezes a gente não usa o colega usa e um dia a gente vai ler aquele código, então a gente tem que saber tá? Mas eu por mim à vontade, eu não uso porque eu tenho medo então o que que acontece no ar, o que que é o problema do ar, muitas vezes ele há enquanto aquela condição foi verdadeira, ele fica lá a condição vai ser sempre verdadeira e ele nunca vai fazer outras coisas, mas ele é útil para outros outros então você quer contar né? Então a gente sempre vai contar vai quantas vezes eu vou passar em algum lugar. Ah enquanto for né? Eu tenho 10 coisas, eu quero contar as 10 e fazer uma coisa com as 10. Então o alho você vai executar enquanto uma condição for verdadeira, né? Então enquanto o contador aqui, por exemplo. Foi menor que três. Você vai imprimir qual é o valor do contador, né? E você vai contar mais um. E aí você vai fazer o seu laço, tá? Então vou colocar esse código para rodar porque eu acho que Ele vai ficar um pouquinho mais dinâmico do que eu ficar explicando o que é um lá eu para você mas é basicamente é um negócio, por enquanto tem dinheiro
+01:30:37 Allan Lange: loop
+01:30:40 Hellen Ruthes: é um loop que se for infinito não é bom, mas pode ser útil e assim gente ele nunca sabe o código de quem a gente vai pegar, né? Com qual como que a pessoa tem que às vezes entra chega o problema para a gente resolver então é o alho você vai fazer alguma coisa enquanto isso aqui. Verdadeiro certo então você vai começar com o contador igual a um enquanto esse contador foi o menor igual a 3, você vai somar ele item no final você vai fazer o fim então se a gente por aqui.
+01:31:15 Hellen Ruthes: The bug. Então qual que é o teu contador certo? Contador um é menor que três é entrou certo contador igual a um E aí ele vai imprimir um aqui para a gente aqui embaixo deveria ter imprimir. Beleza contador recebe o contador mais um certo então conta. testar o fim e vai sair certo, beleza contador é dois agora certo então quando ele testou aqui ele continua aqui dentro, beleza? Não saiu imprimiu 2 tranquilo, ele só passa no fim, mas ele não executa o fim contador vai receber três só contador 3 beleza aqui contador é quatro né? Ele saiu do teu loop e pois enfim tá? Então você vai executar você vai fazer alguma coisa enquanto aquela condição foi verdadeira então enquanto isso aqui foi verdadeiro e você vai continuar executando. Então essa é a ideia o código tá ali para vocês, mas agora a gente pode pelo adiantar toda hora começar a resolver, né? Então tem aqui como que Antes de cada volta o Python Verifica a condição mostra um e muda o contador para dois mostra dois e muda para três.
+01:32:44 Hellen Ruthes: é quatro o laço termina, né? Então aqui tem como acompanhar na mão, né? Então tem todos os itens que eu sugiro vocês fazerem também.
+01:32:52 Edson da Silva: Prof. eu ia fazer uma pergunta quanto ao while (sua restrição quanto ao uso), já respondida e entendi perfeitamente, hehe. Obrigado.
+01:33:01 Hellen Ruthes: Ah beleza, e aí o que eu vou pedir para eu aqui tem tudo tem toda essa dinâmica pronta para vocês. Tá eu vou pedir aqui para vocês fazerem a contagem regressiva aqui, né? Então um contador 3 mostre três dois um e no final mostra que começou né? Então sei lá começa com 10 então o que que vocês vão fazer aqui, né? O contador deve diminuir e parar antes de mostrar zero, né? Então no final o que que começando qual que é o seu problema? É o que que você quer fazer? Qual que é? O objetivo é o contador de contagem regressiva e que pare Antes de mostrar zero. Que que você precisa mostrar você precisa mostrar três dois um não.
+01:33:49 Hellen Ruthes: é a regra é parar antes do zero. E aí fazer sua previsão a mão, né? Então ele começa com três vocês podem executar e fazer com outros certo? Mas é um exercício bem didático. Aí se der tempo a gente faz na sequência. O 10 tá 5 minutinhos é OK para vocês fazerem fazerem esse exercício, eu vou buscar os meus exercícios aqui para deixar para vocês as opções para vocês fazerem. E aí vocês podem fazer isso na sequência, tá? Eu vou só pedir para vocês se vocês puderem olhar na tela de vocês que eu vou mexer aqui na minha tela. Acho que eu consigo fazer controlar podem continuar olhando.
+01:36:08 Thiago Francisco Matos: meu while disparou até o infinito negativo. kkkkk
+01:36:14 Hellen Ruthes: Isso é comum tá? Tem aqui no final tá a resolução, então a gente não é exatamente essa esse é o problema do ar que eu não gosto é meio chato de
+01:36:25 Thiago Francisco Matos: while traiçoeiro
+01:36:29 Hellen Ruthes: testar é mas aí temos a resolução, eu acho que exercício. Então, se você precisar comprar uma coladinha tem a resolução. Beleza, aí, você consegue comparar o que o seu fez diferente e a hora que ele parou. Todos eles estão tão resolvendo.
+01:37:13 Hellen Ruthes: Exercícios - Estruturas Básicas - explicação
+https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/tree/main/documentos/estruturas_basicas
+
+exercícios - https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/tree/main/exercicios_resolvidos/estruturas_basicas
+01:37:17 Lola Danielli: Professora muito obrigada, sua didática é sensacional!!! Precisarei sair, e vou ver o restante gravado. Obrigada até a próxima.
+01:37:23 Hellen Ruthes: Obrigada, obrigada. Lola se precisar deixei os exercícios aqui tá copia que você precisar executar. Tá bom? Até mais tudo de bom, felicidades. Pessoal conseguimos eu me perdi no horário, não sei que horário eu tinha combinado com você, conseguimos tranquilos conseguimos fazer o exercício de juntar dinheiro no dia 10 e 10 aqui. Juntar dinheiro esse exercício aqui, então, você começa com o saldo de 0 e a meta juntar 30 a meta não gosto não gastar meta economizar é mais difícil ainda enquanto o saldo for menor que a meta adicione 10 e mostra o saldo não mostre meta atingida. Então qual que é o objetivo você começar do zero fazer usar o alho porque você pode fazer esse exercício com look e atualizar o saldo, né? Então vai de 10 em 10 como se você fosse fazer um depósito na poupança, né? Qualquer desses novos aí sei lá vai colocar vou colocar no canto e aí você vai escrever até você ter a meta atingida.
+01:38:52 Hellen Ruthes: Mais cinco minutos aí, pode ser? conseguimos Vamos lá?
+01:43:07 Hellen Ruthes: foi lá Deu certo tranquilo conseguimos entender pessoal a aula eu posso ficar um pouco mais mas né pelo respeitando o número de aulas de se programar para outras coisas no sábado, então vou só vou só terminar aqui, né terminar. explicação então a ideia foi que a gente conseguisse começar a entender quando que usa um e quando que usa outro né então para ter esse. precisa precisa um pouco uma aula ajuda, mas precisa.
+01:43:45 Hellen Ruthes: Então eu coloquei aqui alguns exercícios para vocês, eu vou mostrar como que vocês encontram um exercícios, né? Então tem outros aqui na aula de hoje, como classificar preço todos comentados, né? E no final aqui se vocês virem tem a resolução de todos se você resolveu um pouco diferente, mas chegou no mesmo resultado a resolução, tá? Certa né programação. A gente acha que é exato, mas é exato É mais ou menos exato o resultado, mas a forma de resolver ela muda de cada um né? E aqui é só uma casa traseiro. Gostaria de entender e tal é como tá feito, né? Mas aí tem toda a resolução tem um pouquinho de erro comum que você faz para voltar.
+01:44:33 Hellen Ruthes: Do fluxo aqui tá? Então essa esse seria aula de hoje quando a gente vem aqui no github, a gente vai ter em documentos não tem nada secreto aqui vocês podem
+01:44:46 Hellen Ruthes: ver né? Tem para quem precisa algumas coisas de Gui tiver esse code e tal eu sugiro vocês começarem com esse guia geral aqui, né? Então tem espaço de preparação se for útil para vocês fiquem à vontade para aplicar tá? Então tem todos alguns itens específicos e para quem tá buscando mais exercício. Vocês podem vir aqui em documentos a gente vai ter estruturas básicas aqui e aí tem dicionário lista tal tem explicação aqui, né de cada coisa, como que converte como que soma? Então tem vários resultados.
+01:45:34 Hellen Ruthes: Não conseguem executar quando você vem exercícios resolvidos porque Eu dividi tipo a resolução. Quando você vem em exercícios resolvidos aqui. Tem estruturas básicas, eu acho estruturas bás. então tem vários exercícios aqui é ponto P Y, mas vocês podem fazer também
+01:46:02 Cora Giassi: Obrigada Hellen, bom find!
+01:46:02 Hellen Ruthes: podem trocar para outro até agora tudo de bom. Então tem outros exercícios aqui tá então tanto faz se vocês quiserem copiar aqui ou fazer são outros exercícios exercícios maiores outras coisas, então são vários. estão com a resolução. Então aqui tem gift variável, tem outros itens específicos, né? Então se for útil para vocês fiquem à vontade para trabalhar com eles o que eu tenho pessoal para vocês é hoje se vocês tiverem para hoje é isso, né? Temos ainda quatro minutos. Se tiverem algumas alguma coisa específica que eu posso ajudar vocês.
+01:46:48 Hellen Ruthes: Me fale nós vamos ter três aulas. Então a primeira foi hoje com os looks, né? Então que vocês possam testar durante a semana fazer alguns exercícios, a segunda aula eu imagino fazer estruturas, né? O que que é um arquivo Jason que tem uma estrutura de dado o que que é uma variável uma lição dicionário, eu acho que vale a pena para semana que vem, né? Aí a gente já vai estar mais.
+01:47:17 Hellen Ruthes: Organizado para fazer dessa forma e aí, talvez a terceira aula, talvez seja guite né? Pelo jeito é uma coisa que talvez ajudaria vocês.
+01:47:30 Wilson de Souza: Vai ser todo sábado isso.
+01:47:32 Hellen Ruthes: três sábados três sábados hoje
+01:47:32 Wilson de Souza: Vocês sabem Ah tá legal então. Tá legal então, tá, obrigado.
+01:47:40 Hellen Ruthes: Tá bom, imagina alguma outra dúvida pessoal. Alguma coisa que eu possa ajudar vocês sugestão alguma coisa. Se precisarem temos tempo aí ou se quiserem ficar alguns minutos a mais Se tiverem dúvidas, por favor, me fale.
+01:48:00 Marcelo Soares Menna: a aula de github será importante
+01:48:00 THIAGO RODRIGUES: Professora eu queria saber a próxima aula vai ser mais sobre o quê mesmo?
+01:48:01 Maria de los Angeles Moreno: Obrigada! gostei muito sua didática!
+01:48:08 Hellen Ruthes: Eu penso de dar estruturas de dados lista dicionário duplas esse tipo de coisa sabe que eu vejo que as pessoas têm uma certa dificuldade.
+01:48:17 THIAGO RODRIGUES: Aí no arquivo lá no Beach Hub tá como estruturas básicas?
+01:48:22 Hellen Ruthes: Tá como estruturas básicas?
+01:48:25 THIAGO RODRIGUES: Tá então daí eu acho que seria bacana dá uma olhada antes, já dá uma lida geral, entendeu um pouquinho antes para depois quando chegar na aula tá mais
+01:48:31 Ju Borghetti: Muito obrigada, professora, dei um salto na aprendizagem aqui :)
+01:48:34 Wilson de Souza: Revisão excelente! Muito obrigado!
+01:48:34 Hellen Ruthes: Isso exato exato. Acho que dá uma dá uma ajudada sabe ou depois fazer os
+01:48:34 THIAGO RODRIGUES: interado, né?
+01:48:41 Hellen Ruthes: exercícios também.
+01:48:43 THIAGO RODRIGUES: Muito obrigado professora.
+01:48:44 Hellen Ruthes: Beleza nada, imagina. Qualquer coisa é só chamar, tá bom? Bom final de semana
+01:48:45 Marcelo Soares Menna: obrigado Hellen! Bom final de semana pra todos!
+01:48:48 THIAGO RODRIGUES: Pode deixar, promete tchau, tchau.
+01:48:49 Hellen Ruthes: pessoal até tchau até Oi
+01:48:55 romulo trindade: O título de curiosidade tu falou que evito o a Ore na tuas coisas para ele
+01:48:55 Thiago Francisco Matos: Muito obrigado professora.
+01:48:57 Fernanda Nunes: Bom final de semana!
+01:48:57 Hellen Ruthes: imagina vai lá
+01:49:06 romulo trindade: evitar um looping eterno ali, né? Que o que que tu faz normalmente assim, tu põe alguma coisa que não que tu precisa explicar tudo ali detalhado, mas a ideia em si é o que é tipo. Ah, repete x vezes se não deu para
+01:49:21 Hellen Ruthes: Eu uso só for eu não uso usuário. Eu só uso for porque eu nunca porque eu pago o cluster por hora, né? Então assim se eu deixar rodando três dias de um cara deixou o troço rodando lá, deu mil dólares tipo aí por causa disso. Eu só uso. Tenho que fazer coisas só faço para não ter poder dormir sossegado.
+01:49:44 romulo trindade: Sim, tu lembra algum eu lembro alguma coisa que tu não te importou em usar para mesmo tendo isso de já acostumando a usar para evitar? ainda
+01:50:00 Hellen Ruthes: É Exatamente exatamente então assim tipo, aí você confia no monte de coisa de outras pessoas então se a outra pessoa falha você não consegue colocar para tudo aí eu uso fome.
+01:50:11 romulo trindade: sim
+01:50:12 Hellen Ruthes: E desligou o câncer depois de uma hora a gente vai processar uma hora não deu certo morre todo mundo e depois a gente vê o que acontece, mas aí isso é mais
+01:50:21 Luiz Antonio Schlup (Big): Obrigado, e parabéns pela disposição e pela ótima didática dinâmica !
+01:50:22 Hellen Ruthes: avançado, mas eu não eu não gosto de usar. Eu sempre tive.
+01:50:28 romulo trindade: É não é uma segurança na verdade, né?
+01:50:31 Hellen Ruthes: Exatamente então assim tem que aprender porque né Às vezes as pessoas usam e às vezes você vai ter que resolver esses problemas de outras pessoas, mas eu não me sinto muito.
+01:50:43 romulo trindade: Certo, então, tá, obrigado pela aula. Até mais bom fim de
+01:50:46 Hellen Ruthes: Até bom feriado.
+01:50:49 Allan Lange: capricórnio tudo de bom final de semana
+01:50:50 Hellen Ruthes: Tomara que você goste do the bug aí.
+01:50:53 Allan Lange: Pode deixar vou gostar sim, valeu.
+01:50:59 Hellen Ruthes: Luiz Fernando Thiago algum comentário aí alguma ajuda? Daniel Então tá bom se precisarem alguma coisa a gente tudo certo se precisar.
+01:51:12 Fernanda Nunes: Tranquilo. Obrigada!
+01:51:12 Luiz Antonio Schlup (Big): Agora é praticar ler e praticar.
+01:51:16 Hellen Ruthes: Adorei, seu cavalo é lindo.
+01:51:19 Luiz Antonio Schlup (Big): obrigado
+01:51:20 Hellen Ruthes: Manda um oi para o seu cavalo aí. Manda uma fotinha dele, depois se precisarem gente para te chamar, tá? E aí semanas que semana que vem estamos aqui de volta, tá bom?
+01:51:29 Luiz Antonio Schlup (Big): Tá certo muito, obrigado e um excelente final de semana.
+01:51:30 Hellen Ruthes: bom Vereador pessoal até
+  

@@ -1,0 +1,9 @@
+﻿cliente_id,nome,telefone,email,cpf,data_cadastro,observacao
+1,Ana Souza,(21) 98888-1111, ana.souza@email.com ,123.456.789-10,01/09/2026,Cliente VIP; prefere contato por whatsapp.
+2,Bruno Lima,21 97777 2222,bruno.lima@email,98765432100,2026-09-02,email incompleto
+3,Carla Dias,+55 (21) 96666-3333,carla.dias@empresa.com.br,111.222.333-44,03-09-2026,comprou 2 vezes
+4,Diego Rocha,(11)95555-4444,diego_rocha@email.com,22233344455,2026/09/04,telefone sem espaço
+5,Eva Martins,21944445555,eva.martins@email.com ,333.444.555-66,05/09/2026,cadastro ok
+6,Felipe Nunes,sem telefone,felipe.nunes@email.com,444.555.666-77,06/09/2026,telefone ausente
+7,Giovana Reis,(31) 93333-7777,giovana.reis@email.com,55566677788,2026-09-07,nome confirmado
+8,Hugo Alves,31-92222-8888,hugo.alves@empresa,666.777.888-99,08/09/2026,email incompleto

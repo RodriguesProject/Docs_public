@@ -1,0 +1,22 @@
+[
+  {
+    "loja_id": 1,
+    "loja": "Online",
+    "canal": "E-commerce"
+  },
+  {
+    "loja_id": 2,
+    "loja": "Marketplace",
+    "canal": "Parceiro"
+  },
+  {
+    "loja_id": 3,
+    "loja": "Loja RJ",
+    "canal": "Físico"
+  },
+  {
+    "loja_id": 4,
+    "loja": "Loja SP",
+    "canal": "Físico"
+  }
+]

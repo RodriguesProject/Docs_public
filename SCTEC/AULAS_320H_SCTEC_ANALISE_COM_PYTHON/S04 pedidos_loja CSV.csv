@@ -1,0 +1,11 @@
+﻿pedido_id,cliente,data_pedido,data_entrega,valor,canal,status
+1001,Ana Souza,2026-09-01,2026-09-05,149.9,site,entregue
+1002,Bruno Lima,2026-09-02,2026-09-07,89.5,app,entregue
+1003,Carla Dias,2026-09-03,2026-09-10,230.0,site,entregue
+1004,Diego Rocha,2026-09-03,,55.75,marketplace,cancelado
+1005,Eva Martins,2026-09-04,2026-09-06,315.2,app,entregue
+1006,Felipe Nunes,2026-09-05,2026-09-12,120.0,site,pendente
+1007,Giovana Reis,2026-09-07,2026-09-11,77.4,app,entregue
+1008,Hugo Alves,2026-09-08,,410.0,site,pendente
+1009,Isabela Costa,2026-09-09,2026-09-13,58.9,marketplace,entregue
+1010,João Pereira,2026-09-10,2026-09-16,199.9,site,entregue
