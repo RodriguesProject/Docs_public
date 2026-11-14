@@ -1,40 +1,41 @@
-#Aula 3: Visualização Eficaz de Dados com Matplotlib
-import sys
-sys.stdout.reconfigure(encoding='utf-8')
+"""Aula 3 — exemplos executáveis de gráficos de linha e de barras."""
 import matplotlib.pyplot as plt
 import numpy as np
-#criando um gráfico simples de linha
-#plt.plot([1, 2, 3], [2, 6, 7])
-#plt.show() #para exibir o gráfico retire o comentário (#) desta linha
 
-#Dados de exemplo
-x = ['Maça', 'Laranja', 'Uva']
-y = [5, 3, 7]
+# Gráfico de linha
+x_linha = np.array([1, 2, 3, 4, 5])
+y_linha = x_linha ** 2
 
-#plt.bar(x, y, color=['red', 'orange', 'purple']) #criando um gráfico de barras e definindo as cores para cada barra usando uma lista de cores
-#plt.bar(x, y, color= 'steelblue') #definindo uma única cor usando nome da cor
-#adicionando rótulos e título
-plt.xlabel('Frutas')
-plt.ylabel('Quantidade')
-plt.title('Quantidade de Frutas')   
-#plt.show()
+plt.figure(figsize=(7, 4))
+plt.plot(x_linha, y_linha, marker="o", label="y = x²")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.title("Gráfico de linha")
+plt.legend()
+plt.grid(alpha=0.25)
+plt.tight_layout()
+plt.show()
 
-# Gerar dados de exemplo
-arr = np.array([1, 2, 3, 4, 5])
-# Criar um gráfico de linha
-#plt.plot(arr, arr**2, marker='o')
-plt.xlabel('X')
-plt.ylabel('Y')
-plt.title('Gráfico de Linha')
-#plt.show()
-print()
-print('________________________________\n')
-print('EXERCÍCIO_______________________\n')
-#crie dois arrays com nome e salários de funcionários e em seguida mostre gráficos de barras para visualizar os salários dos funcionários.
-nomes = np.array(['Alice', 'Bob', 'Charlie', 'Thiago', 'Maria'])
-salarios = np.array([5000, 6000, 7000, 8000, 9000])
-#plt.bar(nomes, salarios, color='skyblue')
-plt.xlabel('Funcionários')
-plt.ylabel('Salário')
-plt.title('Salários dos Funcionários')
-#plt.show()
+# Gráfico de barras
+frutas = ["Maçã", "Laranja", "Uva"]
+quantidades = [5, 3, 7]
+
+plt.figure(figsize=(7, 4))
+plt.bar(frutas, quantidades, color="steelblue")
+plt.xlabel("Frutas")
+plt.ylabel("Quantidade")
+plt.title("Quantidade de frutas")
+plt.tight_layout()
+plt.show()
+
+# Exercício: salários fictícios
+nomes = ["Alice", "Bruno", "Carla", "Diego", "Eva"]
+salarios = [5000, 6000, 7000, 8000, 9000]
+
+plt.figure(figsize=(7, 4))
+plt.bar(nomes, salarios)
+plt.xlabel("Funcionários fictícios")
+plt.ylabel("Salário (R$)")
+plt.title("Exemplo de salários")
+plt.tight_layout()
+plt.show()

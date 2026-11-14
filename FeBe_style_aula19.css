@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 2rem; font-family: Arial, sans-serif; line-height: 1.5; color: #1f2937; background: #f4f6f8; }
+main { max-width: 760px; margin: 0 auto; }
+section { margin: 1.5rem 0; padding: 1.25rem; background: white; border: 1px solid #d8dee6; border-radius: 10px; }
+label { display: block; margin-top: .75rem; }
+input, select, button { padding: .6rem; margin: .25rem; }
+button { cursor: pointer; }
+.painel-cores { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1rem; }
+.divTrocaCor { display: grid; place-items: center; min-width: 110px; min-height: 80px; padding: 1rem; background: white; border: 1px solid #64748b; border-radius: 6px; }
+#resultado { font-weight: bold; min-height: 1.5rem; }

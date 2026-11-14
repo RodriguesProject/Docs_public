@@ -1,75 +1,12 @@
-/* seletor universal: Aplica as regras a todos os elementos da página */
-* {
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-}
-
-/* seletor de elemento: Seleciona todos os elementos <p> */
-p {
-    color: rgba(201, 100, 100, 0.878);
-    background-color: antiquewhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 100;
-}
-
-/* seletor de elemento: Seleciona todos os elementos <div> */
-div {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-weight: 400;
-}
-
-/* seletor de ID: Seleciona o elemento com o ID "parágrafo1" */
-#parágrafo1 {
-    color: rgb(0, 0, 0);
-    background-color: rgba(221, 218, 218, 0.758);
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-weight: 400;
-}
-
-/* seletor de classe: Seleciona o elemento com a classe "textual_estilo1" */
-.textual_estilo1 {
-    color: rgb(28, 12, 109);
-    background-color: rgba(81, 193, 254, 0.758);
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-weight: bold;
-}
-
-/* seletor irmão: Seleciona o elemento <a> que é imediatamente após um elemento <p> */
-p+a {
-    color: rgb(255, 38, 0);
-    background-color: rgb(255, 255, 255);
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-weight: bold;
-}
-
-/* seletor irmão geral: Seleciona todos os elementos <a> que são irmãos de um elemento <p>, ou seja, tudo o que estiver depois de <p>*/
-p~a {
-    color: rgb(31, 238, 17);
-    background-color: rgb(2, 12, 1);
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-weight: bold;
-}
-
-/* seletor de filho: Seleciona o elemento <a> que é filho direto de um elemento <p> */
-p>a {
-    color: rgb(222, 173, 255);
-    background-color: rgb(29, 92, 99);
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-weight: bold;
-}
-
-/* seletor de descendente: Seleciona o elemento <a> que é descendente de um elemento <div>, ou seja, tudo o que estiver dentro de <div> */  
-div a {
-    color: rgb(234, 242, 90);
-    background-color: rgb(54, 38, 3);
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-weight: bold;
-}
-
-#link_entendimento:hover {
-    color: rgb(255, 0, 0);
-    background-color: rgb(255, 255, 255);
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-weight: bold;
-} 
+/* Folha de estilos da aula de seletores CSS. */
+* { box-sizing: border-box; font-family: "Segoe UI", Tahoma, sans-serif; }
+body { margin: 2rem; line-height: 1.5; }
+p { color: #9b3f3f; background: antiquewhite; padding: .5rem; }
+div { padding: .5rem; background: #f1f5f9; }
+#paragrafo1 { color: #111827; background: #e5e7eb; }
+.textual-estilo1 { color: #1c0c6d; background: #c8eaff; font-weight: bold; }
+p + a { color: #c2410c; }
+p ~ a { color: #15803d; }
+p > a { color: #7e22ce; }
+div a { color: #854d0e; }
+#link_entendimento:hover { color: #dc2626; text-decoration: underline; }

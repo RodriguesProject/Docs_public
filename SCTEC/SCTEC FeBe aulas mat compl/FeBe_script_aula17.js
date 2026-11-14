@@ -1,32 +1,10 @@
-function verificaAprovacao()
-{
-    let nota = document.getElementById("nota").value;
-    console.log("nota inserida: ", nota)
-    if(nota>=7)
-    {
-            document.getElementById("resultado").innerHTML = "Parabéns, você foi aprovado!"
-            alert("Aluno(a) aprovado(a)!");
+function verificaAprovacao() {
+    const campoNota = document.getElementById("nota");
+    const resultado = document.getElementById("resultado");
+    const nota = Number(campoNota.value);
+    if (campoNota.value.trim() === "" || !Number.isFinite(nota) || nota < 0 || nota > 10) {
+        resultado.textContent = "Informe uma nota válida entre 0 e 10.";
+        return;
     }
-    else
-    {
-            document.getElementById("resultado").innerHTML = "Deu ruim, você foi reprovado!"
-            alert("Aluno(a) reprovado(a)!");
-    }
+    resultado.textContent = nota >= 7 ? "Parabéns! Você foi aprovado." : "Você não atingiu a nota mínima.";
 }
-
-
-
-
-
-
-
-
-
-/*function varTeste1()
-{
-    var num1 = 1;
-    var num1 = 2;
-
-    console.log(num1);
-}
-varTeste1();*/
