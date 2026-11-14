@@ -7,3 +7,15 @@ venv/
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Ambientes virtuais Python
+venv/
+.venv/
+env/
+
+# Arquivos temporários Python
+__pycache__/
+*.py[cod]
+
+# Configurações locais
+.env
