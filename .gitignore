@@ -1,21 +1,34 @@
-__pycache__/
-*.py[cod]
+# Python: ambientes e arquivos temporarios
 .venv/
 venv/
-.env
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Segredos e configuracoes locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE e sistema operacional
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
-.vscode/
+desktop.ini
 
-# Ambientes virtuais Python
-venv/
-.venv/
-env/
+# Logs, caches e temporarios
+*.log
+*.tmp
+*.temp
+.cache/
 
-# Arquivos temporários Python
-__pycache__/
-*.py[cod]
-
-# Configurações locais
-.env
+# Cópia duplicada do livro dentro de SCTEC (não é removida do histórico
+# por esta regra; manter como canônica a cópia existente na raiz).
+/SCTEC/Python para Análise de Dados - 3 Ed. (Wes McKinney) pydata-book-3rd-edition/
