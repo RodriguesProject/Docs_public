@@ -1,43 +1,55 @@
-# Docs_public — arquivo de estudos
+# Docs_public — arquivo público de estudos
 
-Este repositório reúne exercícios e anotações desenvolvidos durante a formação em tecnologia. O conteúdo é educacional e demonstra fundamentos em construção, não experiência profissional ou domínio avançado.
+Este repositório reúne exercícios, anotações e materiais de aprendizagem desenvolvidos durante a formação em tecnologia. Seu objetivo é demonstrar evolução técnica e registrar estudos; **não substitui o portfólio de projetos autorais**.
 
-## Trilhas de estudo
+## Conteúdo
 
-### Python e lógica
-- Variáveis, tipos, entrada e saída, condicionais e laços;
-- Funções, estruturas de dados, pilhas e filas;
-- Tratamento de exceções e introdução à orientação a objetos;
-- Scripts simples para leitura e processamento de arquivos.
+| Área | Conteúdo |
+|---|---|
+| Python e lógica | Fundamentos, condicionais, laços, funções, estruturas de dados e scripts introdutórios |
+| Análise de dados | NumPy, Pandas, limpeza, preparação, análise exploratória e visualização |
+| Bancos de dados | Estudos de SQL/NoSQL, consultas e materiais de apoio |
+| Inteligência Artificial | Notebooks e materiais introdutórios |
+| Desenvolvimento web | HTML, CSS, Grid, Flexbox, JavaScript e manipulação do DOM |
+| Datasets | Bases didáticas utilizadas nos exercícios e estudos |
 
-### Análise de dados
-- NumPy: arrays e estatística descritiva;
-- Pandas: DataFrames, filtros, agrupamentos, valores ausentes e duplicidades;
-- Matplotlib e Seaborn: linhas, barras, dispersão, histogramas e heatmaps;
-- Análise exploratória com datasets de exemplo.
+## Organização recomendada
 
-### Desenvolvimento web
-- HTML semântico e formulários;
-- CSS: seletores, box model, Grid e Flexbox;
-- JavaScript: fundamentos, funções, eventos e manipulação do DOM.
+- `SCTEC/`: materiais e exercícios relacionados às trilhas e aulas SCTEC/SENAI.
+- `estudo python/`: exercícios de fundamentos e lógica com Python.
+- `Python para Análise de Dados - 3 Ed. (Wes McKinney) pydata-book-3rd-edition/`: cópia principal de referência do código e dos notebooks do livro.
+- `requirements.txt`: dependências Python usadas nos exercícios deste repositório.
 
-### Automação introdutória
-Os exercícios de Python demonstram scripts simples para tarefas repetitivas, leitura de arquivos, contagem de palavras, validação de entradas e cálculos. Isso representa iniciação em automação, não implementação de RPA corporativo, integrações via API ou automações em produção.
+**Regra para evitar duplicidade:** consulte a cópia principal do material de Wes McKinney indicada acima. Não crie outra cópia dentro de pastas de curso ou de exercícios. Os notebooks e datasets do livro são material de referência; os projetos autorais devem ficar em repositórios próprios.
 
-## Como executar
-1. Instale Python 3.10 ou superior.
-2. Instale as dependências: python -m pip install -r requirements.txt
-3. Execute os scripts a partir da pasta do repositório, por exemplo: python DtC_aula2Data.py
-4. Abra os arquivos HTML diretamente no navegador.
+## Ambiente Python
 
-Os scripts que leem CSV esperam os arquivos correspondentes na raiz do repositório. Os datasets são destinados a estudo; consulte origem, licença e condições de uso antes de reutilizá-los. Alguns datasets de exemplo do Seaborn podem exigir internet na primeira execução ou cache local.
+No terminal, a partir da pasta do repositório:
 
-## Organização
-- DtC_*.py: exercícios de Python e análise de dados.
-- FeBe_*.html, FeBe_*.css, FeBe_*.js: exercícios de front-end.
-- PYTHON ARQUIVOS/: exercícios básicos de lógica e scripts.
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
 
-## Privacidade
-Use dados fictícios nos exemplos. Não publique endereços, telefones, documentos, credenciais, tokens ou caminhos locais que revelem informações privadas.
+Se a política de execução do PowerShell impedir a ativação, use o interpretador diretamente:
 
-Projetos selecionados para apresentação profissional: [RodriguesProject](https://github.com/RodriguesProject/RodriguesProject). Este repositório permanece como arquivo de aprendizagem.
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+Não versione ambientes virtuais, credenciais, caches, arquivos temporários ou caminhos locais.
+
+## Critérios de manutenção
+
+1. Preserve os materiais didáticos úteis e mantenha os nomes originais dos arquivos sempre que isso ajudar a rastrear a aula de origem.
+2. Separe exercícios de aula de projetos autorais com objetivo, análise e conclusões próprios.
+3. Mantenha datasets pequenos e necessários aos exemplos; para bases grandes, avalie Git LFS ou disponibilização externa com fonte e licença documentadas.
+4. Inclua um README em cada projeto autoral explicando objetivo, dados, ferramentas, etapas, resultados e como executar.
+5. Verifique a licença e as condições de redistribuição de PDFs, livros, imagens e datasets antes de publicar.
+6. Utilize dados fictícios ou anonimizados. Nunca publique documentos, endereços, telefones, credenciais, tokens ou informações pessoais.
+
+## Portfólio
+
+Projetos selecionados para apresentação profissional ficam no repositório [RodriguesProject](https://github.com/RodriguesProject/RodriguesProject). Este repositório permanece como arquivo público de aprendizagem.
